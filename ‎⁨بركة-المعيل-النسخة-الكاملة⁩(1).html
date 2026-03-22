@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بركة المعيل — رواية كاملة</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Tajawal:wght@200;300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--g:#b8902a;--gl:#d4ae5a;--gx:#f0e0b0;--gd:#6b5018;--ink:#0d0b07;--pp:#faf6ed;--p2:#f2ead8;--p3:#e6d9c0;--tx:#1b1308;--mt:#7a6540;--sb:274px;--S:'Amiri',serif;--U:'Tajawal',sans-serif}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--S);background:var(--pp);color:var(--tx);min-height:100vh;display:flex}
+/* SIDEBAR */
+.sidebar{width:var(--sb);min-height:100vh;background:var(--ink);position:fixed;right:0;top:0;bottom:0;display:flex;flex-direction:column;z-index:300;overflow:hidden;border-left:1px solid rgba(184,144,42,.2)}
+.sh{padding:26px 18px 14px;border-bottom:1px solid rgba(184,144,42,.14);flex-shrink:0}
+.st{font-family:var(--S);font-size:1.28rem;color:var(--gl);line-height:1.3;margin-bottom:3px}
+.ss{font-family:var(--U);font-size:.58rem;color:rgba(184,144,42,.38);letter-spacing:2px;font-weight:300}
+.sst{padding:10px 18px;border-bottom:1px solid rgba(184,144,42,.1);display:flex;gap:10px;flex-shrink:0}
+.sn{text-align:center;flex:1}
+.snn{font-family:var(--U);font-size:.95rem;color:var(--g);font-weight:700;display:block;line-height:1}
+.snl{font-family:var(--U);font-size:.56rem;color:rgba(184,144,42,.38);font-weight:300;letter-spacing:1px}
+.snav{flex:1;overflow-y:auto;padding:5px 0;scrollbar-width:thin;scrollbar-color:rgba(184,144,42,.18) transparent}
+.snav::-webkit-scrollbar{width:3px}
+.snav::-webkit-scrollbar-thumb{background:rgba(184,144,42,.18);border-radius:2px}
+.si{display:block;padding:9px 18px;cursor:pointer;border-right:3px solid transparent;transition:all .18s;text-decoration:none}
+.si:hover{background:rgba(184,144,42,.07);border-right-color:rgba(184,144,42,.32)}
+.si.act{background:rgba(184,144,42,.12);border-right-color:var(--g)}
+.si-n{font-family:var(--U);font-size:.58rem;letter-spacing:2px;color:rgba(184,144,42,.42);font-weight:300;margin-bottom:2px}
+.si-t{font-family:var(--S);font-size:.84rem;color:rgba(255,248,230,.62);line-height:1.3}
+.si.act .si-t{color:var(--gl)}
+.sf{padding:11px 18px 22px;border-top:1px solid rgba(184,144,42,.14);flex-shrink:0}
+.sbtn{width:100%;font-family:var(--U);font-size:.74rem;padding:8px;background:transparent;border:1px solid rgba(184,144,42,.22);color:rgba(184,144,42,.55);cursor:pointer;border-radius:2px;letter-spacing:.5px;transition:all .18s;margin-bottom:5px}
+.sbtn:hover{background:rgba(184,144,42,.1);color:var(--gl)}
+.sbtn.pr{background:var(--gd);color:var(--gx);border-color:var(--g)}
+.sbtn.pr:hover{background:var(--g);color:var(--ink)}
+/* MAIN */
+.main{margin-right:var(--sb);flex:1;min-height:100vh}
+/* COVER */
+#cv{min-height:100vh;background:linear-gradient(160deg,#0d0b07 0%,#1a1205 55%,#251908 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:56px 36px;position:relative;overflow:hidden}
+#cv::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 40% 60%,rgba(184,144,42,.13) 0%,transparent 65%);pointer-events:none}
+#cv::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent)}
+.cba{font-family:var(--U);font-size:.6rem;letter-spacing:5px;color:rgba(184,144,42,.48);font-weight:300;margin-bottom:22px}
+.corn{font-size:1.1rem;color:rgba(184,144,42,.28);letter-spacing:12px;margin-bottom:18px}
+.cti{font-family:var(--S);font-size:clamp(2.6rem,6vw,4.8rem);color:var(--gx);line-height:1.2;margin-bottom:9px;font-weight:700}
+.cen{font-family:var(--U);font-size:.72rem;color:rgba(184,144,42,.3);letter-spacing:4px;font-weight:200;margin-bottom:24px}
+.csep{width:60px;height:1px;background:linear-gradient(90deg,transparent,var(--gd),transparent);margin:0 auto 22px}
+.csyn{font-family:var(--S);font-size:.97rem;color:rgba(212,174,90,.48);line-height:2;max-width:480px;font-style:italic;margin-bottom:36px}
+.cst{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-bottom:36px}
+.csn{font-family:var(--U);font-size:1.5rem;color:var(--g);font-weight:700;display:block}
+.csl{font-family:var(--U);font-size:.6rem;color:rgba(184,144,42,.38);letter-spacing:1.5px;font-weight:300}
+.cbtn{font-family:var(--U);font-size:.88rem;padding:13px 36px;background:var(--gd);color:var(--gx);border:1px solid var(--g);cursor:pointer;border-radius:2px;letter-spacing:1px;transition:all .22s;margin-bottom:36px}
+.cbtn:hover{background:var(--g);color:var(--ink);transform:translateY(-2px)}
+.toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:1px;border:1px solid rgba(184,144,42,.12);max-width:580px;width:100%;background:rgba(184,144,42,.12)}
+.tc{background:rgba(13,11,7,.82);padding:10px 14px;text-align:right;cursor:pointer;transition:background .18s}
+.tc:hover{background:rgba(184,144,42,.08)}
+.tc-n{font-family:var(--U);font-size:.56rem;color:rgba(184,144,42,.33);letter-spacing:2px;font-weight:300;margin-bottom:2px}
+.tc-t{font-family:var(--S);font-size:.78rem;color:rgba(255,248,230,.46);line-height:1.3}
+/* CHAPTER */
+.cp{min-height:100vh;display:none}
+.cp.vis{display:block}
+.hero{background:linear-gradient(155deg,#111009 0%,#1c1508 100%);padding:68px 52px 48px;position:relative;overflow:hidden;min-height:230px;display:flex;flex-direction:column;justify-content:flex-end}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 80%,rgba(184,144,42,.08) 0%,transparent 60%)}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gd),transparent)}
+.cn{font-family:var(--U);font-size:.6rem;letter-spacing:4px;color:rgba(184,144,42,.45);font-weight:300;margin-bottom:7px;position:relative}
+.ct{font-family:var(--S);font-size:clamp(1.6rem,3.5vw,2.5rem);color:var(--gx);line-height:1.25;position:relative;margin-bottom:14px}
+.nav-r{position:relative;display:flex;gap:7px;flex-wrap:wrap}
+.nb{font-family:var(--U);font-size:.68rem;padding:5px 13px;border:1px solid rgba(184,144,42,.2);background:transparent;color:rgba(184,144,42,.45);cursor:pointer;border-radius:2px;transition:all .18s}
+.nb:hover{background:rgba(184,144,42,.1);color:var(--gl)}
+.rd{max-width:680px;margin:0 auto;padding:52px 40px 80px}
+.nv{font-family:var(--S);font-size:1.12rem;line-height:2.35;color:var(--tx);text-align:justify;word-spacing:2px}
+.nv p{margin-bottom:1.5em;text-indent:2.2em}
+.nv p:first-of-type{text-indent:0}
+.nv p:first-of-type::first-letter{font-size:3.4em;font-weight:700;color:var(--g);float:right;line-height:.72;margin:6px 0 0 12px;font-family:var(--S)}
+.sb{text-align:center;color:var(--gd);font-size:.76rem;letter-spacing:10px;margin:32px 0;opacity:.4;user-select:none}
+.ft{border-top:1px solid var(--p3);padding:26px 40px;max-width:680px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.fb{font-family:var(--U);font-size:.78rem;padding:10px 20px;border:1px solid var(--p3);background:transparent;color:var(--mt);cursor:pointer;border-radius:2px;transition:all .18s}
+.fb:hover{border-color:var(--gd);color:var(--gd)}
+.fb.pr{background:var(--ink);color:var(--gl);border-color:var(--ink)}
+.fb.pr:hover{background:#1e1608}
+.fc{font-family:var(--U);font-size:.66rem;color:var(--mt)}
+/* CONTROLS */
+.rc{position:fixed;bottom:20px;left:20px;display:flex;gap:6px;z-index:200}
+.rcb{width:36px;height:36px;background:var(--ink);border:1px solid rgba(184,144,42,.18);color:rgba(184,144,42,.52);cursor:pointer;border-radius:50%;font-size:.82rem;display:flex;align-items:center;justify-content:center;transition:all .18s;font-family:var(--U);font-weight:700}
+.rcb:hover{background:#1e1608;color:var(--gl)}
+/* PROGRESS */
+.prog{position:fixed;top:0;left:0;right:var(--sb);height:2px;background:rgba(184,144,42,.1);z-index:400;pointer-events:none}
+.pf{height:100%;background:linear-gradient(90deg,var(--gd),var(--gl));width:0%;transition:width .15s}
+/* SIZE */
+body[data-sz="sm"] .nv{font-size:.97rem;line-height:2.1}
+body[data-sz="md"] .nv{font-size:1.12rem;line-height:2.35}
+body[data-sz="lg"] .nv{font-size:1.28rem;line-height:2.5}
+body[data-sz="xl"] .nv{font-size:1.46rem;line-height:2.6}
+/* NIGHT */
+body.night{--pp:#0f0d09;--p2:#161208;--p3:#211a0c;--tx:#ddd0b8;--mt:#7a6840}
+body.night .sidebar{background:#080605}
+/* MOBILE */
+.mob{display:none;position:fixed;top:13px;right:13px;z-index:400;width:36px;height:36px;background:var(--ink);border:1px solid rgba(184,144,42,.28);color:var(--g);cursor:pointer;border-radius:3px;align-items:center;justify-content:center;font-size:1rem}
+@media(max-width:840px){:root{--sb:254px}.rd{padding:34px 22px 68px}.hero{padding:42px 22px 36px}.ft{padding:20px 22px;flex-direction:column}}
+@media(max-width:600px){.sidebar{transform:translateX(100%);transition:transform .3s}.sidebar.open{transform:translateX(0)}.main{margin-right:0}.prog{right:0}.mob{display:flex}#cv{padding:36px 16px}.toc{grid-template-columns:1fr 1fr}}
+html::-webkit-scrollbar{width:5px}
+html::-webkit-scrollbar-track{background:var(--p2)}
+html::-webkit-scrollbar-thumb{background:rgba(184,144,42,.2);border-radius:3px}
+@media print{.sidebar,.rc,.prog,.nav-r,.ft{display:none !important}.main{margin-right:0}.cp{display:block !important;page-break-before:always}.rd{max-width:100%;padding:36px 52px}#cv{min-height:100vh;page-break-after:always}}
+
+/* ═══════════════════════════════
+   BOOK COVER PAGE
+═══════════════════════════════ */
+#book-cover { display:none; min-height:100vh; background:#0a0804; }
+#book-cover.vis { display:block; }
+
+.cover-scene {
+  min-height:100vh;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  padding:40px 20px 32px;
+  background:radial-gradient(ellipse at 50% 40%, #241a06 0%, #0e0b05 70%);
+  position:relative; overflow:hidden;
+}
+
+/* gold shimmer background */
+.cover-scene::before {
+  content:'';
+  position:absolute; inset:0;
+  background:radial-gradient(ellipse at 50% 35%, rgba(184,144,42,.15) 0%, transparent 60%);
+  animation:glow-bg 5s ease-in-out infinite;
+  pointer-events:none;
+}
+@keyframes glow-bg { 0%,100%{opacity:.6} 50%{opacity:1} }
+
+/* floating gold particles */
+.spark { position:absolute; border-radius:50%; background:rgba(212,174,90,.7); pointer-events:none; animation:rise linear infinite; }
+@keyframes rise {
+  0%   { opacity:0; transform:translateY(0) scale(.5); }
+  15%  { opacity:1; }
+  85%  { opacity:.4; }
+  100% { opacity:0; transform:translateY(-130px) scale(1.6); }
+}
+
+/* book frame */
+.book-frame {
+  position:relative; z-index:2;
+  width:min(360px, 85vw);
+  border-radius:6px; overflow:hidden;
+  box-shadow:
+    0 32px 90px rgba(0,0,0,.9),
+    0 0 0 1px rgba(184,144,42,.25),
+    0 0 55px rgba(184,144,42,.18);
+}
+
+/* ornamental corners */
+.bc { position:absolute; width:22px; height:22px; border-color:rgba(212,174,90,.6); border-style:solid; z-index:10; }
+.bc.tl { top:9px; right:9px; border-width:1px 0 0 1px; }
+.bc.tr { top:9px; left:9px;  border-width:1px 1px 0 0; }
+.bc.bl { bottom:9px; right:9px; border-width:0 0 1px 1px; }
+.bc.br { bottom:9px; left:9px;  border-width:0 1px 1px 0; }
+
+/* the actual cover image */
+.cover-img {
+  display:block; width:100%;
+  object-fit:cover;
+}
+
+/* CTA below the book */
+.cover-cta {
+  margin-top:24px; text-align:center; position:relative; z-index:2;
+}
+.cover-tag {
+  font-family:var(--U); font-size:.62rem; letter-spacing:3px;
+  color:rgba(184,144,42,.4); font-weight:300; margin-bottom:14px;
+}
+.cover-btn {
+  font-family:var(--U); font-size:.92rem; padding:13px 38px;
+  background:linear-gradient(135deg,#6b5018,#b8902a,#d4ae5a);
+  color:#0a0804; border:none; cursor:pointer; border-radius:3px;
+  letter-spacing:1.5px; font-weight:700; transition:all .25s;
+  box-shadow:0 4px 20px rgba(184,144,42,.45);
+  display:inline-flex; align-items:center; gap:10px;
+  position:relative; overflow:hidden;
+}
+.cover-btn::after {
+  content:''; position:absolute; inset:0;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent);
+  transform:translateX(-100%); transition:transform .5s;
+}
+.cover-btn:hover { transform:translateY(-2px); box-shadow:0 8px 30px rgba(184,144,42,.6); }
+.cover-btn:hover::after { transform:translateX(100%); }
+.cover-btn-arrow { transition:transform .2s; font-size:1.1em; }
+.cover-btn:hover .cover-btn-arrow { transform:translateX(-4px); }
+
+/* ═══════════════════════════════
+   EBOOK FOOTER
+═══════════════════════════════ */
+.ebook-footer {
+  background:linear-gradient(160deg,#0a0804,#160f04);
+  border-top:1px solid rgba(184,144,42,.2);
+  padding:26px 32px 18px;
+  text-align:center; position:relative;
+}
+.ebook-footer::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:1px;
+  background:linear-gradient(90deg,transparent,#b8902a,#d4ae5a,#b8902a,transparent);
+}
+.ft-row {
+  display:flex; align-items:center; justify-content:center;
+  flex-wrap:wrap; gap:16px; margin-bottom:14px;
+}
+/* instagram */
+.ig-btn {
+  display:inline-flex; align-items:center; gap:7px;
+  font-family:var(--U); font-size:.85rem; padding:9px 20px;
+  background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);
+  color:#fff; border:none; cursor:pointer; border-radius:22px;
+  font-weight:600; text-decoration:none; letter-spacing:.4px;
+  transition:all .22s; box-shadow:0 4px 16px rgba(253,29,29,.3);
+}
+.ig-btn:hover { transform:translateY(-2px); box-shadow:0 8px 26px rgba(253,29,29,.5); }
+.ig-btn svg { flex-shrink:0; }
+/* counters */
+.counters { display:flex; gap:10px; }
+.cbox {
+  display:flex; flex-direction:column; align-items:center;
+  background:rgba(184,144,42,.07); border:1px solid rgba(184,144,42,.18);
+  border-radius:8px; padding:7px 14px; min-width:88px;
+}
+.cnum {
+  font-family:var(--U); font-size:1.1rem; font-weight:700;
+  color:#d4ae5a; line-height:1; display:flex; align-items:center; gap:4px;
+}
+.clbl { font-family:var(--U); font-size:.56rem; color:rgba(184,144,42,.45); letter-spacing:1px; font-weight:300; margin-top:3px; }
+.live-dot { width:7px; height:7px; border-radius:50%; background:#22c55e; display:inline-block; animation:blink 1.5s infinite; }
+@keyframes blink { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.3;transform:scale(1.4)} }
+/* copyright */
+.cr-line { font-family:var(--U); font-size:.67rem; color:rgba(184,144,42,.38); letter-spacing:.7px; line-height:1.9; margin-top:4px; }
+.made-love { font-family:var(--U); font-size:.78rem; color:rgba(212,174,90,.5); display:flex; align-items:center; justify-content:center; gap:5px; margin-top:5px; }
+.heart { display:inline-block; animation:hb 1.3s ease-in-out infinite; }
+@keyframes hb { 0%,100%{transform:scale(1)} 14%{transform:scale(1.4)} 28%{transform:scale(1)} 42%{transform:scale(1.3)} 70%{transform:scale(1)} }
+
+/* ═══════════════════════════════
+   PODCAST PAGE
+═══════════════════════════════ */
+#podcast-page { display:none; min-height:100vh; background:#08060a; }
+#podcast-page.vis { display:block; }
+
+.pod-scene {
+  min-height:100vh;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  padding:48px 24px 40px;
+  background:radial-gradient(ellipse at 50% 40%, #160c22 0%, #08060a 65%);
+  position:relative; overflow:hidden;
+}
+
+/* purple ambient */
+.pod-scene::before {
+  content:'';
+  position:absolute; inset:0;
+  background:radial-gradient(ellipse at 50% 40%, rgba(139,92,246,.12) 0%, transparent 60%);
+  animation:pod-glow 6s ease-in-out infinite; pointer-events:none;
+}
+@keyframes pod-glow { 0%,100%{opacity:.5} 50%{opacity:1} }
+
+/* sound waves behind disk */
+.sound-waves {
+  position:absolute; top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  width:320px; height:320px;
+  pointer-events:none; z-index:0;
+}
+.sw { position:absolute; inset:0; border-radius:50%;
+  border:1px solid rgba(139,92,246,.18);
+  animation:sw-expand 3s ease-out infinite;
+}
+.sw:nth-child(1){animation-delay:0s;}
+.sw:nth-child(2){animation-delay:1s;}
+.sw:nth-child(3){animation-delay:2s;}
+@keyframes sw-expand {
+  0%  {transform:scale(.5);opacity:.6}
+  100%{transform:scale(1.8);opacity:0}
+}
+/* waves pause when not playing */
+.pod-player:not(.playing) .sound-waves .sw { animation-play-state:paused; opacity:0; }
+
+/* album disk */
+.pod-disk-wrap {
+  position:relative; z-index:2; margin-bottom:28px;
+  width:200px; height:200px;
+}
+.pod-disk {
+  width:200px; height:200px; border-radius:50%;
+  background:
+    radial-gradient(circle at 50% 50%, #1a0f2e 0%, #0f0918 60%, #08060a 100%);
+  border:2px solid rgba(139,92,246,.35);
+  box-shadow:
+    0 0 0 8px rgba(139,92,246,.06),
+    0 0 0 16px rgba(139,92,246,.04),
+    0 20px 60px rgba(0,0,0,.8),
+    0 0 40px rgba(139,92,246,.15);
+  display:flex; align-items:center; justify-content:center;
+  position:relative; overflow:hidden;
+  transition:box-shadow .4s;
+}
+.pod-disk::before { /* grooves */
+  content:''; position:absolute; inset:20px; border-radius:50%;
+  border:1px solid rgba(139,92,246,.1);
+  box-shadow:
+    0 0 0 12px rgba(139,92,246,.06),
+    0 0 0 24px rgba(139,92,246,.04);
+}
+.pod-disk-inner {
+  width:50px; height:50px; border-radius:50%;
+  background:radial-gradient(circle, #2d1b4e, #1a0f2e);
+  border:2px solid rgba(139,92,246,.5);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.3rem; z-index:1;
+  box-shadow:0 0 12px rgba(139,92,246,.4);
+}
+/* spin when playing */
+.pod-player.playing .pod-disk {
+  animation:disk-spin 8s linear infinite;
+  box-shadow:
+    0 0 0 8px rgba(139,92,246,.1),
+    0 0 0 16px rgba(139,92,246,.06),
+    0 20px 60px rgba(0,0,0,.8),
+    0 0 60px rgba(139,92,246,.3);
+}
+@keyframes disk-spin { to{transform:rotate(360deg)} }
+.pod-player:not(.playing) .pod-disk { animation:none; }
+
+/* needle */
+.pod-needle {
+  position:absolute; top:4px; left:50%;
+  width:3px; height:68px;
+  background:linear-gradient(to bottom, #d4ae5a, rgba(212,174,90,.3));
+  border-radius:2px; transform-origin:top center;
+  transform:translateX(-50%) rotate(-28deg);
+  transition:transform .5s ease; z-index:5;
+  box-shadow:0 2px 8px rgba(212,174,90,.4);
+}
+.pod-player.playing .pod-needle { transform:translateX(-50%) rotate(0deg); }
+
+/* track info */
+.pod-info { text-align:center; margin-bottom:24px; z-index:2; }
+.pod-series {
+  font-family:var(--U); font-size:.62rem; letter-spacing:3px;
+  color:rgba(139,92,246,.6); font-weight:300; margin-bottom:6px;
+}
+.pod-title {
+  font-family:var(--S); font-size:1.5rem;
+  color:#f0e8ff; line-height:1.3; margin-bottom:4px;
+  text-shadow:0 0 20px rgba(139,92,246,.4);
+}
+.pod-author {
+  font-family:var(--U); font-size:.72rem;
+  color:rgba(212,174,90,.5); font-weight:300; letter-spacing:1px;
+}
+
+/* progress bar */
+.pod-progress-wrap { width:100%; max-width:360px; margin-bottom:12px; z-index:2; }
+.pod-times { display:flex; justify-content:space-between;
+  font-family:var(--U); font-size:.62rem;
+  color:rgba(139,92,246,.5); margin-bottom:6px; letter-spacing:.5px;
+  direction:ltr;
+}
+.pod-bar {
+  width:100%; height:4px; background:rgba(139,92,246,.15);
+  border-radius:2px; cursor:pointer; position:relative; overflow:hidden;
+}
+.pod-bar-fill {
+  height:100%;
+  background:linear-gradient(90deg, #7c3aed, #a78bfa, #c4b5fd);
+  border-radius:2px; width:0%;
+  transition:width .1s linear;
+  position:relative;
+}
+.pod-bar-fill::after { /* glow dot */
+  content:''; position:absolute; right:-5px; top:50%;
+  transform:translateY(-50%);
+  width:10px; height:10px; border-radius:50%;
+  background:#a78bfa;
+  box-shadow:0 0 8px rgba(167,139,250,.8);
+  transition:opacity .2s;
+}
+.pod-bar:hover .pod-bar-fill::after { opacity:1; }
+
+/* EQ bars (visualizer) */
+.pod-eq {
+  display:flex; align-items:flex-end; gap:3px;
+  height:28px; margin-bottom:20px; z-index:2;
+}
+.eq-bar {
+  width:4px; background:linear-gradient(to top, #7c3aed, #a78bfa);
+  border-radius:2px; transition:height .1s;
+}
+.pod-player:not(.playing) .eq-bar { height:3px !important; }
+
+/* controls */
+.pod-controls { display:flex; align-items:center; gap:16px; z-index:2; }
+.pod-ctrl {
+  background:none; border:none; cursor:pointer; color:rgba(167,139,250,.7);
+  transition:all .2s; font-size:1rem; padding:4px;
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--U);
+}
+.pod-ctrl:hover { color:#c4b5fd; transform:scale(1.1); }
+.pod-play-btn {
+  width:60px; height:60px; border-radius:50%;
+  background:linear-gradient(135deg, #7c3aed, #a78bfa);
+  border:none; cursor:pointer; color:#fff;
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.5rem; transition:all .25s;
+  box-shadow:0 4px 20px rgba(124,58,237,.5);
+}
+.pod-play-btn:hover { transform:scale(1.08); box-shadow:0 6px 28px rgba(124,58,237,.7); }
+
+/* volume */
+.pod-vol-wrap { display:flex; align-items:center; gap:8px; margin-top:20px; z-index:2; }
+.pod-vol-icon { font-size:1rem; color:rgba(167,139,250,.5); }
+.pod-vol {
+  -webkit-appearance:none; appearance:none;
+  width:100px; height:3px; border-radius:2px;
+  background:rgba(139,92,246,.2); cursor:pointer; outline:none;
+}
+.pod-vol::-webkit-slider-thumb {
+  -webkit-appearance:none; width:12px; height:12px; border-radius:50%;
+  background:#a78bfa; cursor:pointer;
+  box-shadow:0 0 6px rgba(167,139,250,.6);
+}
+
+/* speed badge */
+.pod-speed {
+  font-family:var(--U); font-size:.7rem; font-weight:700;
+  color:rgba(167,139,250,.7); cursor:pointer; padding:4px 10px;
+  border:1px solid rgba(139,92,246,.25); border-radius:12px;
+  transition:all .2s; letter-spacing:.5px;
+}
+.pod-speed:hover { background:rgba(139,92,246,.15); color:#c4b5fd; }
+
+/* sparkles */
+.pod-sparkle { position:absolute; pointer-events:none; z-index:1;
+  color:rgba(167,139,250,.6); font-size:.8rem;
+  animation:sparkle-float 4s ease-in-out infinite;
+}
+@keyframes sparkle-float {
+  0%,100%{opacity:0;transform:translateY(0) scale(.5)}
+  50%{opacity:1;transform:translateY(-20px) scale(1)}
+}
+
+</style>
+</head>
+<body data-sz="md">
+
+<div class="prog"><div class="pf" id="pb"></div></div>
+<button class="mob" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
+<div class="rc">
+  <button class="rcb" onclick="chSz(-1)">أ-</button>
+  <button class="rcb" onclick="chSz(1)">أ+</button>
+  <button class="rcb" onclick="document.body.classList.toggle('night')">🌙</button>
+  <button class="rcb" onclick="window.print()">⎙</button>
+</div>
+
+<aside class="sidebar">
+  <div class="sh">
+    <div class="st">بركة المعيل</div>
+    <div class="ss">BARAKAT AL-MU'EEL · رواية</div>
+  </div>
+  <div class="sst">
+    <div class="sn"><span class="snn">7</span><span class="snl">فصول</span></div>
+    <div class="sn"><span class="snn">~250</span><span class="snl">صفحة</span></div>
+    <div class="sn"><span class="snn">كاملة</span><span class="snl">جاهزة</span></div>
+  </div>
+  <nav class="snav">
+<a class="si act" onclick="show('book-cover')" href="#"><div class="si-n">COVER</div><div class="si-t">الغلاف</div></a>
+<a class="si" onclick="show('podcast-page')" href="#"><div class="si-n">🎙 بودكاست</div><div class="si-t">المخلص الصوتي</div></a>
+    <a class="si" onclick="show('c1')" href="#"><div class="si-n">الفصل الأول</div><div class="si-t">ضجيج العالم وصمت الروح</div></a>
+<a class="si" onclick="show('c2')" href="#"><div class="si-n">الفصل الثاني</div><div class="si-t">ليل الروح المظلم</div></a>
+<a class="si" onclick="show('c3')" href="#"><div class="si-n">الفصل الثالث</div><div class="si-t">هندسة الأرض والروح</div></a>
+<a class="si" onclick="show('c4')" href="#"><div class="si-n">الفصل الرابع</div><div class="si-t">كيمياء المعدة</div></a>
+<a class="si" onclick="show('c5')" href="#"><div class="si-n">الفصل الخامس</div><div class="si-t">نمو الجشع</div></a>
+<a class="si" onclick="show('c6')" href="#"><div class="si-n">الفصل السادس</div><div class="si-t">السحر المشروط</div></a>
+<a class="si" onclick="show('c7')" href="#"><div class="si-n">الفصل السابع</div><div class="si-t">التطهير والميلاد الجديد</div></a>
+  </nav>
+  <div class="sf">
+    <button class="sbtn pr" onclick="show('c1')">← ابدأ القراءة</button>
+    <button class="sbtn" onclick="window.print()">⎙ &nbsp;طباعة / PDF</button>
+  </div>
+</aside>
+
+
+<div id="book-cover" class="cp vis">
+  <div class="cover-scene">
+    <!-- gold sparks -->
+    <div class="spark" style="width:3px;height:3px;bottom:20%;left:18%;animation-duration:9s;animation-delay:0s;"></div>
+    <div class="spark" style="width:2px;height:2px;bottom:35%;left:78%;animation-duration:13s;animation-delay:2s;"></div>
+    <div class="spark" style="width:4px;height:4px;bottom:15%;left:55%;animation-duration:11s;animation-delay:4s;"></div>
+    <div class="spark" style="width:2px;height:2px;bottom:50%;left:12%;animation-duration:8s;animation-delay:1s;"></div>
+    <div class="spark" style="width:3px;height:3px;bottom:65%;left:88%;animation-duration:10s;animation-delay:3s;"></div>
+
+    <!-- book -->
+    <div class="book-frame">
+      <div class="bc tl"></div><div class="bc tr"></div>
+      <div class="bc bl"></div><div class="bc br"></div>
+      <img
+        class="cover-img"
+        src="https://i.top4top.io/p_3730s7mep2.jpeg"
+        alt="غلاف رواية بركة المعيل - باسم علي دكمان السعيدي"
+        onerror="this.style.cssText='width:100%;aspect-ratio:3/4;display:flex;align-items:center;justify-content:center;background:#181006;'"
+      />
+    </div>
+
+    <!-- open button -->
+    <div class="cover-cta">
+      <div class="cover-tag">رواية عربية كاملة &nbsp;·&nbsp; 7 فصول</div>
+      <button class="pod-shortcut" onclick="show('podcast-page')" style="font-family:var(--U);font-size:.82rem;padding:10px 24px;background:linear-gradient(135deg,#4c1d95,#7c3aed,#a78bfa);color:#fff;border:none;cursor:pointer;border-radius:22px;letter-spacing:1px;font-weight:500;transition:all .22s;box-shadow:0 4px 16px rgba(124,58,237,.4);display:inline-flex;align-items:center;gap:8px;margin-bottom:12px;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">🎙️ استمع للبودكاست</button><br><br>
+    <button class="cover-btn" onclick="show('cv')">
+        <span>اقرأ الرواية</span>
+        <span class="cover-btn-arrow">←</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════ بودكاست المخلص الصوتي ══════════ -->
+<div id="podcast-page" class="cp">
+  <div class="pod-scene">
+
+    <!-- sparkles -->
+    <span class="pod-sparkle" style="top:15%;left:12%;animation-delay:0s;">✦</span>
+    <span class="pod-sparkle" style="top:22%;left:85%;animation-delay:1.5s;">✦</span>
+    <span class="pod-sparkle" style="top:72%;left:8%;animation-delay:2.5s;">✦</span>
+    <span class="pod-sparkle" style="top:65%;left:88%;animation-delay:0.8s;">✦</span>
+
+    <!-- main player -->
+    <div class="pod-player" id="podPlayer">
+
+      <!-- sound rings -->
+      <div class="sound-waves">
+        <div class="sw"></div><div class="sw"></div><div class="sw"></div>
+      </div>
+
+      <!-- disk -->
+      <div class="pod-disk-wrap">
+        <div class="pod-disk">
+          <div class="pod-disk-inner">🎙️</div>
+        </div>
+        <div class="pod-needle" id="podNeedle"></div>
+      </div>
+
+      <!-- info -->
+      <div class="pod-info">
+        <div class="pod-series">بودكاست · المخلص الصوتي</div>
+        <div class="pod-title">بركة المعيل</div>
+        <div class="pod-author">تأليف: باسم علي دكمان السعيدي</div>
+      </div>
+
+      <!-- EQ visualizer -->
+      <div class="pod-eq" id="podEq">
+        <div class="eq-bar" style="height:6px"></div>
+        <div class="eq-bar" style="height:12px"></div>
+        <div class="eq-bar" style="height:8px"></div>
+        <div class="eq-bar" style="height:18px"></div>
+        <div class="eq-bar" style="height:10px"></div>
+        <div class="eq-bar" style="height:22px"></div>
+        <div class="eq-bar" style="height:14px"></div>
+        <div class="eq-bar" style="height:20px"></div>
+        <div class="eq-bar" style="height:8px"></div>
+        <div class="eq-bar" style="height:16px"></div>
+        <div class="eq-bar" style="height:6px"></div>
+        <div class="eq-bar" style="height:12px"></div>
+      </div>
+
+      <!-- progress -->
+      <div class="pod-progress-wrap">
+        <div class="pod-times">
+          <span id="podCur">0:00</span>
+          <span id="podDur">—:——</span>
+        </div>
+        <div class="pod-bar" id="podBar">
+          <div class="pod-bar-fill" id="podFill"></div>
+        </div>
+      </div>
+
+      <!-- controls row -->
+      <div class="pod-controls">
+        <button class="pod-ctrl" id="podRew" title="15 ثانية للخلف">⏪</button>
+        <button class="pod-play-btn" id="podPlayBtn">▶</button>
+        <button class="pod-ctrl" id="podFwd" title="15 ثانية للأمام">⏩</button>
+        <button class="pod-speed" id="podSpeedBtn" title="سرعة التشغيل">1×</button>
+      </div>
+
+      <!-- volume -->
+      <div class="pod-vol-wrap">
+        <span class="pod-vol-icon">🔈</span>
+        <input class="pod-vol" type="range" id="podVol" min="0" max="1" step="0.05" value="1">
+        <span class="pod-vol-icon">🔊</span>
+      </div>
+
+    </div><!-- /pod-player -->
+
+    <!-- audio element -->
+    <audio id="podAudio" preload="metadata">
+      <source src="https://l.top4top.io/m_3732lkb371.mp3" type="audio/mpeg">
+    </audio>
+
+  </div>
+</div>
+
+<main class="main">
+
+<div id="cv" class="cp">
+<div style="min-height:100vh;background:linear-gradient(160deg,#0d0b07 0%,#1a1205 55%,#251908 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:56px 36px;position:relative;overflow:hidden">
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 40% 60%,rgba(184,144,42,.13) 0%,transparent 65%);pointer-events:none"></div>
+<div style="position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#b8902a,transparent)"></div>
+<div class="cba">رواية عربية · واقعية سحرية وتحوّل روحي</div>
+<div class="corn">✦ &nbsp; ✦ &nbsp; ✦</div>
+<div class="cti">بركة المعيل</div>
+<div class="cen">BARAKAT AL-MU'EEL</div>
+<div class="csep"></div>
+<div class="csyn">في حيّ شعبي صغير يولد يوسف مختلفاً — لا يفهم الضجيج من حوله ولا يُحبّه. تقوده وحدته الباكرة إلى الطموح، ثم يضربه الانهيار في ذروة صعوده، فيجد خلاصه في ارتفاع مئذنة قديمة. يبني يوسف حياته على هذا التوازن بين الأرض والسماء ويُصبح مهندساً يُؤسّس داراً للأيتام تحمل روحه. بين أطفاله يأتي ماهر — طفل يحوّل طعامه ذهباً في معدته. يُربّيه يوسف، لكن الذهب يُربّي في ماهر ما هو أخطر: الجشع. وفي العودة المرّة والتطهير البطيء، يفقد ماهر موهبته ويجد شيئاً أثمن: القدرة على الحب.</div>
+<div class="cst">
+  <div><span class="csn">7</span><span class="csl">فصول</span></div>
+  <div><span class="csn">~250</span><span class="csl">صفحة</span></div>
+  <div><span class="csn">كاملة</span><span class="csl">جاهزة للقراءة</span></div>
+</div>
+<button class="cbtn" onclick="show('c1')">← ابدأ القراءة</button>
+<div class="toc">
+<div class="tc" onclick="show('c1')"><div class="tc-n">الفصل الأول</div><div class="tc-t">ضجيج العالم وصمت الروح</div></div>
+<div class="tc" onclick="show('c2')"><div class="tc-n">الفصل الثاني</div><div class="tc-t">ليل الروح المظلم</div></div>
+<div class="tc" onclick="show('c3')"><div class="tc-n">الفصل الثالث</div><div class="tc-t">هندسة الأرض والروح</div></div>
+<div class="tc" onclick="show('c4')"><div class="tc-n">الفصل الرابع</div><div class="tc-t">كيمياء المعدة</div></div>
+<div class="tc" onclick="show('c5')"><div class="tc-n">الفصل الخامس</div><div class="tc-t">نمو الجشع</div></div>
+<div class="tc" onclick="show('c6')"><div class="tc-n">الفصل السادس</div><div class="tc-t">السحر المشروط</div></div>
+<div class="tc" onclick="show('c7')"><div class="tc-n">الفصل السابع</div><div class="tc-t">التطهير والميلاد الجديد</div></div>
+</div>
+</div>
+</div>
+
+
+<div id="c1" class="cp">
+<div class="hero">
+  <div class="cn">الفصل الأول</div>
+  <div class="ct">ضجيج العالم وصمت الروح</div>
+  <div class="nav-r">
+    <button class="nb" onclick="show('cv')">→ الغلاف</button>
+    <button class="nb" onclick="show('c2')">الثاني ←</button>
+  </div>
+</div>
+<div class="rd"><div class="nv"><p>كان الزقاق يضجّ بصوت الأطفال حين صعد يوسف إلى السطح. لم يكن الأمر مقصوداً في البداية؛ جاء ليجلس دقيقة يستريح من حرارة البيت، ثم بقي ساعتين. من هناك، بجانب خزان الماء الصدئ وحبال الغسيل المنتفخة بالملاءات البيضاء، كان العالم أهدأ. أصوات الأطفال تصل إليه مخففة، كأنها تُصفَّى في الهواء قبل أن تبلغه.</p>
+<p>رأى أمّه تخرج من باب الجارة حاملة طبقاً مغطى بقماش، تمشي بخطوات الواثق من طريقه. أدار رأسه نحو الزقاق حيث كان محمد ورامي وثلاثة آخرين يتقاذفون علبة بلاستيكية مثقوبة، يصرخون بكل ما أوتوا من صوت. كان يوسف قد نزل معهم قبل ساعة وأقام في الزاوية يراقب اللعبة دون أن يلعب، حتى نظر إليه محمد ذاك النظرة التي تعني "أنت لا تريد اللعب أصلاً"، فصعد.</p>
+<p>لم يكن يكره أصدقاءه. لم يكن يكره اللعب. كان يكره ذلك الشيء الذي يحدث في داخله حين يقف وسطهم مدة طويلة — ذلك الإحساس بأنه يسمع نغمة واحدة ترتفع وترتفع حتى تصير مؤلمة. الضجيج، ليس الصوت فقط، بل الضجيج بمعناه الأشمل: التزاحم على الفوز، والضحك الصاخب الذي لا يُضحك، والمشاجرات السريعة التي تنتهي قبل أن يفهمها. كل ذلك كان يجلس على صدره كأنه وزن لا كتلة له.</p>
+<p>على السطح الأمر مختلف.</p>
+<p>كانت الشمس في ذلك الأصيل تنزل ببطء خلف المنزل الأزرق في آخر الحي، وتترك على الجدران الطينية حزاماً من الذهب الداكن. رائحة المطابخ تصعد من كل اتجاه: بصل مقلي وكزبرة وشيء يشبه الخبز المحترق قليلاً. حمامة رمادية تجلس على حافة السطح المقابل لا تتحرك، تنظر إلى شيء لا يراه هو. بعيداً جداً في آخر الأحياء صوت أذان يذوّب في المسافة حتى يصير موسيقى أكثر منه كلاماً.</p>
+<p>جلس يوسف على طرف السطح ومدّ قدميه في الهواء. كان في السابعة من عمره وكان ثقيلاً بطريقة لا علاقة لها بوزنه.</p>
+<p>سمع صوت أمه من نافذة المطبخ تحته: "يوسف! اغسل يدك وتعال."</p>
+<p>صوتها لم يكن فيه قلق. كانت هي الأخرى تعيش في عالم منظم ومتوقع وكانت تتوقع منه أن يفعل الشيء ذاته. نزل.</p>
+<p>في المطبخ وضعت أمّه صحن العدس أمامه ووقفت تراقبه وهو يأكل. ليس بحنان خاص، بل بتلك الطريقة التي تراقب بها النساء من جيلها أطفالهن: تتحقق من أنه يأكل بشكل صحيح لا أن يأكل بسعادة. أمه امرأة من الطين العملي تُحب بالأفعال لا بالكلمات، وكانت أفعالها كثيرة: تطبخ وتكنس وتخيط وتتابع دروسه وتقف في طابور الخباز كل صباح وتعرف أسعار كل شيء في السوق حفظاً. لم يكن يشك في حبها لحظة واحدة. كان فقط يعرف أنها لن تفهم الشرح إذا حاول أن يُخبرها عن ذلك الشيء الذي يشعر به على السطح.</p>
+<p>عاد بعد العشاء حين صار الزقاق هادئاً. الأطفال دخلوا بيوتهم والنجوم بدأت تظهر فوق الحي بخجل. جلس في المكان ذاته وترك الليل يأتي. في الغرف تحته ضوء التلفزيون يرتجف من خلال النوافذ وصوت المذيع يتسرب مخففاً. أبوه الذي عاد من العمل قبل ساعتين يجلس الآن أمام الشاشة بهذا الصمت الكامل الذي يُشبه النوم وهو صاحٍ. أبوه رجل يُشبه الجدار: صلب، موجود، لا يشرح نفسه. يعمل في المصنع منذ خمسة عشر عاماً، يأتي منهكاً، يأكل، يجلس، ينام. ومرة في الأسبوع يُطلّ على يوسف بسؤال واحد: "كيف المدرسة؟" ويكتفي بـ"تمام" دون أن ينتظر أكثر.</p>
+<p>كان يوسف وهو يجلس في الظلام فوق كل تلك الأصوات والأضواء يُفكر في سؤال لا يعرف صياغته بعد: لماذا يبدو الجميع مرتاحين لهذا الضجيج في حين يجلس هو في الصمت مرتاحاً؟ ليس سؤالاً فلسفياً، كان سؤال طفل يلاحظ فرقاً لا يجد له تفسيراً.</p>
+<p>النجوم كثرت. بقي حتى ناديته أمه للنوم.</p>
+<div class="sb">✦</div>
+<p>في العاشرة أُجبر على اللعب.</p>
+<p>ليست إجباراً بالمعنى الصارم — أحد لم يأمره أمراً صريحاً. لكن للحي رأياً غير معلن في الأطفال الذين يجلسون وحيدين كثيراً. الجارة أم محمد قالت لأمه ذات مرة: "ابنك بيت جداً يا حجة، خلّيه يلعب مع الولاد." وأمه التي تُحسم الأمور بالأفعال قالت له في اليوم التالي: "انزل العب."</p>
+<p>نزل.</p>
+<p>اصطفوا يختارون الفرق. كان يوسف الأخير في كل مرة لا لأنه ضعيف جسدياً، بل لأن الأطفال يشمّون في الأطفال الآخرين شيئاً، وما شمّوه فيه لم يكن يُقنعهم. وقف في الملعب ولعب. ركض حين اقتضى الأمر. لكن شيئاً كان يحدث من الداخل: في كل مرة كان الضجيج يرتفع كان يوسف يشعر بأنه يتراجع خطوة نحو الداخل دون أن يتحرك جسده.</p>
+<p>يوم كان الضجيج في أوجّه وجد يوسف نفسه ينظر إلى الحارة المقابلة حيث مسجد الحي القديم يقف هادئاً. بابه الخشبي العتيق كان مفتوحاً قليلاً. لم يُفكّر؛ مشى.</p>
+<p>داخل المسجد كان الهواء بارداً رغم الحرارة خارجه، ورائحة البخور القديمة مسكونة في الجدران. في الزاوية جلس شيخ يقرأ في كتاب لم يرفع رأسه حين دخل يوسف. اتكأ الصبي بظهره على الجدار وأغمض عيونه لثوانٍ. لم يُصلّ، لم يدعُ. فقط أغمض عيونه.</p>
+<p>"تريد شيئاً؟" صوت الشيخ لم يكن مُرحّباً ولا مُرهقاً، فقط صوت.</p>
+<p>"لا." قال يوسف.</p>
+<p>"إذاً اقعد."</p>
+<p>قعد يوسف وقعد الشيخ وعاد كل منهما إلى ما كان فيه.</p>
+<div class="sb">✦</div>
+<p>في المدرسة لم يكن يوسف الأول. كان الثالث أو الرابع، لكنه كان مختلفاً بطريقة لاحظها بعض المعلمين ولم يتوقف عندها أحد منهم طويلاً: كان يُجيب على الأسئلة بعد صمت كأنه يُكمل جملة بدأها في رأسه قبل أن يقولها.</p>
+<p>حفظ جدول الضرب بسهولة لأن فيه نمطاً. أحب الهندسة لأن فيها دقة. وكره التعبير الأدبي الحر لأن لا أحد كان يقول له ما الذي يُفترض أن يُعبّر عنه.</p>
+<p>المنزل في المساء: الأم في المطبخ، التلفزيون يعمل وأبوه أمامه، يوسف على طاولة الطعام يذاكر. أحياناً بعد العشاء كانت أمه تجلس قبالته تخيط، وكان هذا الصمت المشترك هو أكثر لحظات المنزل دفئاً.</p>
+<p>"أحسنت في الرياضيات اليوم؟" كانت تسأل دون أن ترفع رأسها.</p>
+<p>"آه."</p>
+<p>"والتعبير؟"</p>
+<p>"ماشي."</p>
+<p>وبهذا تنتهي المحادثة ويبقى الدفء.</p>
+<div class="sb">✦</div>
+<p>في الخامسة عشرة بدأ يوسف يرى نفسه من الخارج. في فرح عمّه الكبير وكان الحي كله حاضراً وكانت الموسيقى تُصمّ وكانت الأضواء الملونة تدور على وجوه تضحك بكل ما تملك، وقف يوسف في الركن بعيداً عن الجموع وأدرك شيئاً: هو لا يكره هذا. هو فقط ليس فيه.</p>
+<p>غادر الفرح باكراً ومشى في الحارة الهادئة حتى بيته. في الليل جلس على طاولته وفكّر: ماذا يريد؟ سؤال عملي لا وجودي. يوسف في الخامسة عشرة يريد أن يصنع شيئاً يبقى. لا يريد الصوت. يريد الأثر.</p>
+<p>مهندس. كلمة لا بريق فيها كثير في محيطه، لكن فيها دقة وبناء وأثر.</p>
+<p>سأل الأب ذات يوم: "ماذا بعد الثانوية؟" فقال يوسف: "هندسة." صمت الأب دقيقة كاملة ثم قال كلمة واحدة: "حسناً." كلمة بثقل الكلمات التي يأخذ الرجل الصامت وقته قبل أن يقولها.</p>
+<div class="sb">✦</div>
+<p>في السابعة عشرة صارت الدراسة دينه.</p>
+<p>يسهر حتى الثانية أحياناً والفجر أحياناً. الكتب مكدّسة على الطاولة والأرض. يشرب الشاي بارداً لأنه ينسى أن يشربه. عيناه تحترقان في الصباح لكنه يُكملها.</p>
+<p>التعب يتراكم: إغفاءات مفاجئة تُسقطه على الكتاب. نسيان صغير. أحياناً يقرأ فقرة ثم يجد نفسه قد أعادها ثماني مرات. لكنه يواصل لأن الحلم أكبر من التعب.</p>
+<p>الأم تضع الطعام على طاولته وتمشي دون أن تُزعجه. ذات ليلة سمعته يُطفئ المصباح ويضع رأسه على الكتاب. وقفت في الباب ونظرت إلى ابنها النائم على الكتاب والقلم لا يزال في يده. وضعت كوب الشاي بهدوء ورجعت.</p>
+<p>قبل أسابيع من الامتحانات النهائية جلسا على سطح البيت، هو وأمه. كانت تُرتّب الغسيل. قالت دون أن تنظر إليه:</p>
+<p>"إذا تعبت، قل لي."</p>
+<p>"ما في تعب."</p>
+<p>"الكل يتعب."</p>
+<p>صمت يوسف.</p>
+<p>"سافر وادرس وارجع وأنت كامل. ما نريد غير ذلك."</p>
+<p>لم يكن "نريد" بمعنى التوقع. كان بمعنى الدعاء.</p>
+<div class="sb">✦</div>
+<p>في تلك الليلة الأخيرة قبل السفر إلى مدينة الجامعة جلس يوسف على طاولته لآخر مرة في هذه الغرفة. الكتب مُعبّأة. الحقيبة الكبيرة بجانب الباب. فتح كتاب الرياضيات من عادة ونظر في الصفحة دون أن يقرأ.</p>
+<p>خارج النافذة الحي هادئ إلا من نباح كلب بعيد وصوت تلفزيون يتسرب خافتاً.</p>
+<p>كان يظن أنه يعرف ما يريد. كان يظن أن الطريق واضح: الجامعة، الهندسة، الشهادة، العمل، الحياة. خطوات منطقية متسلسلة. لكن في تلك الليلة أحسّ بشيء لا يعرف اسمه، شيء في أعماق داخله يتراكم بهدوء مثل الماء خلف سدّ لم يُتفقّد منذ زمن بعيد.</p>
+<p>لم يُفكّر في الأمر طويلاً. أطفأ المصباح وفتح النافذة قليلاً، ودخل الليل.</p></div></div>
+<div class="ft">
+  <button class="fb" onclick="show('cv')">→ الغلاف</button>
+  <span class="fc">1 من 7</span>
+  <button class="fb pr" onclick="show('c2')">الثاني ←</button>
+</div>
+</div>
+
+<div id="c2" class="cp">
+<div class="hero">
+  <div class="cn">الفصل الثاني</div>
+  <div class="ct">ليل الروح المظلم</div>
+  <div class="nav-r">
+    <button class="nb" onclick="show('c1')">→ الأول</button>
+    <button class="nb" onclick="show('c3')">الثالث ←</button>
+  </div>
+</div>
+<div class="rd"><div class="nv"><p>في أول أيام الجامعة كان كل شيء أكبر مما توقعه.</p>
+<p>المدينة نفسها: شوارع عريضة وضجيج مختلف النوع، ليس ضجيج الحارة الذي يعرف أصحابه بل ضجيج المجهول. الحرم الجامعي بكتله الخرسانية الضخمة والساحات الواسعة والوجوه الكثيرة القادمة من كل اتجاه. سكن الطلاب: غرفة بسرير طابقين وطاولتين وخزانتين ونافذة تطل على جدار.</p>
+<p>زميل الغرفة كان طلال، من مدينة ساحلية، طويل وصاخب بطريقة غير مُزعجة، يضحك بصوت عالٍ على نكات لا يجدها يوسف مضحكة دائماً، ويترك ملابسه على الأرض ثم يجمعها دفعة واحدة يوم الجمعة. كان يحب طلال دون أن يفهمه كثيراً، وكان طلال يحب يوسف بنفس الطريقة.</p>
+<p>"إنت عندك حبيبة في البيت؟" سأله طلال في الأسبوع الثاني.</p>
+<p>"لأ."</p>
+<p>"إذاً ليش ما بتطلع معنا الليل؟"</p>
+<p>"ما عندي مزاج."</p>
+<p>"إنت دايماً ما عندك مزاج." قالها ضاحكاً وخرج.</p>
+<p>في الفجر حين كان الحرم الجامعي فارغاً كان يوسف يمشي في الممرات الطويلة. كانت الساحات في تلك الساعة تبدو مختلفة: الأشجار الكبيرة فيها شيء يشبه الوقار، والنوافير المُطفأة تبدو كأنها تتنفس بهدوء. كان يحب الجامعة في الفجر أكثر من أي وقت آخر.</p>
+<p>درس بنفس الانضباط الذي عرفه في الحي، لكن هنا الدراسة أعمق والمادة أثقل. الهندسة المدنية: ستاتيكا وديناميكا وميكانيكا التربة وتحليل الإنشاءات. كل مادة كانت تفتح باباً ويوسف يدخله بهدوء. في نهاية السنة الأولى كان ترتيبه الرابع في دفعته.</p>
+<p>كتب لأمه رسالة قصيرة: "الحال بخير. الدراسة تمام. الجو هنا بارد. أرسل لي بعض الزعتر."</p>
+<div class="sb">✦</div>
+<p>في السنة الثانية، في صباح عادي جداً، فتح يوسف كتاب الميكانيكا التطبيقية ولم يستطع أن يقرأ.</p>
+<p>لم يكن ذلك في اليوم الأول. كانت المعادلات واضحة أمامه لكن بين عيونه والصفحة كان هناك جدار زجاجي شفاف لا يراه أحد غيره. قرأ الجملة مرة. وثانية. وثالثة. الكلمات تدخل وتخرج دون أن تبقى. أغلق الكتاب وفتحه. نفس الشيء.</p>
+<p>في الأيام التالية تصاعد الأمر ببطء مثل ماء يغلي لا تلاحظ درجة حرارته حتى تُحرق يدك. النوم الذي كان ثماني ساعات صار اثنتي عشرة أحياناً وستاً متقطعة أحياناً أخرى. الأكل: كان يجلس أمام الطبق ويأكل لأن الجسد يطلب لا لأن الطعام يشتهيه — كل شيء طعمه مثل ورق القماش. في المحاضرات يجلس وينظر ويُسجّل، لكن ذهنه كان مكاناً آخر. الأصوات كأنها تأتي من خلف جدار، واللون الفلوري للأضواء يبدو أصفر ومتعباً.</p>
+<p>طلال لاحظ. يوماً قال: "إنت تمام؟"</p>
+<p>"تمام."</p>
+<p>"لأ مش تمام. ما أكلت اليوم."</p>
+<p>"أكلت."</p>
+<p>"شفتك تحرّك الملعقة نص ساعة."</p>
+<p>لم يرد يوسف. طلال جلس قبالته وقال: "عندك مشكلة في البيت؟"</p>
+<p>"لأ."</p>
+<p>"في الدراسة؟"</p>
+<p>"لأ."</p>
+<p>"إذاً ماذا؟"</p>
+<p>نظر يوسف إلى يديه على الطاولة. "ما أعرف."</p>
+<p>وكان هذا صحيحاً تماماً.</p>
+<p>حاول المقاومة بما يعرفه: الإرادة. فتح الكتاب وقال لنفسه اقرأ. وقرأ السطر عشر مرات. وضع المنبّه في الصباح الباكر وقام حين رن وجلس على الطاولة وحرّك القلم. لكن الإرادة كانت تعمل على موتور فارغ. يوسف الذي بنى كل حياته على الإرادة كان يكتشف أن الإرادة وحدها لها حدود.</p>
+<p>لم يُخبر أحداً. ليس لكبرياء بالضرورة بل لأنه لم يعرف ما الذي سيقوله.</p>
+<div class="sb">✦</div>
+<p>في الأسبوع الرابع وكان الليل في منتصفه خرج يوسف من الغرفة.</p>
+<p>لم يكن يعرف أين يذهب. مشى. الشوارع القريبة من السكن مضاءة بمصابيح صفراء تُلقي ظلالاً طويلة. برودة لطيفة. مشى دون اتجاه، واحدة أمام الأخرى، حتى وجد نفسه في زقاق ضيق لم يمر منه من قبل.</p>
+<p>كان المسجد في آخر الزقاق.</p>
+<p>ليس مسجداً جديداً. هذا مسجد قديم بجدران من الحجر الداكن ومئذنة رفيعة تطعن السماء بهدوء. كان بابه الخشبي المُقوّس مفتوحاً، والضوء الداخلي ضعيف مصفرّ.</p>
+<p>دخل يوسف.</p>
+<p>لم يكن هناك مُصلّون في تلك الساعة. شيخ واحد في الزاوية ينظف الفوانيس القديمة بقماشة. الهواء داخل المسجد مختلف: بارد أكثر مما ينبغي، ورائحة الحجر العتيق والخشب وذلك الشيء الذي لا اسم له لكن يعرفه كل من دخل مكاناً قديماً مُصلّى فيه كثيراً.</p>
+<p>توقف في المدخل.</p>
+<p>قال الشيخ دون أن ينظر إليه: "ادخل."</p>
+<p>"ما جئت أُصلي."</p>
+<p>"ادخل على كل حال."</p>
+<p>جلس يوسف على الأرض المفروشة بالسجاجيد القديمة وظهره إلى العمود. أغمض عيونه. لم يُصلّ ولم يدعُ ولم يُفكّر. فقط أغمض عيونه. وللمرة الأولى منذ أسابيع خفّ شيء ما.</p>
+<p>لم تكن خفة كاملة. لكنها كانت ملحوظة كنزول درجة واحدة في الحمّى.</p>
+<p>بعد وقت قال الشيخ: "المئذنة مفتوحة."</p>
+<p>نظر إليه يوسف.</p>
+<p>"الولد الذي يجلس بعيون مغلقة أحياناً يحتاج الارتفاع."</p>
+<p>لم يكن في الكلام حكمة صوفية بقدر ما كان فيه ملاحظة بسيطة. قام يوسف وذهب إلى باب المئذنة.</p>
+<div class="sb">✦</div>
+<p>الدرج حلزوني ضيق، الحجارة فيه مُنحوتة بيد قديمة. كل خطوة تصحبها رائحة الطين والحجر والزمن. الهواء يضيق مع الارتفاع ثم يتسع. أصوات المدينة تتغير: الأقرب يبعد والأبعد يقترب. في منتصف الطريق سمع سيارة تعبر الزقاق وبدا صوتها صغيراً مثل لعبة. واصل الصعود.</p>
+<p>الشرفة الصغيرة في القمة.</p>
+<p>وقف يوسف عند حافتها ورأى المدينة.</p>
+<p>من هنا الضجيج كله يصل مخففاً: أصوات كثيرة تتحوّل إلى نسيج واحد مثل موسيقى بعيدة تسمعها صدىً لا مصدراً. الأضواء المتفرقة في النوافذ والشوارع تبدو كنجوم أرضية. السماء فوقه عميقة زرقاء فيها قمر يُلقي ضوءاً فضياً على رؤوس المباني.</p>
+<p>يوسف يقف فوق الضجيج.</p>
+<p>لم يكن تحولاً درامياً. لم يسمع صوتاً ولم تنزل دموعه ولم يرَ نوراً. كان هدوءاً يشبه نزول الحمّى فجأة — تذكّرت جسدك لحظة أنه كان طبيعياً وعاد. ذلك الثقل الذي جلس على صدره أسابيع خفّ بمقدار كافٍ لأن يتنفس بعمق.</p>
+<p>بقي حتى أذّن الفجر.</p>
+<div class="sb">✦</div>
+<p>في الأيام التالية اكتشف النمط: كلما صعد المئذنة خفّ الثقل. مثل نافذة في غرفة مُغلقة. يفتحها ويدخل الهواء.</p>
+<p>بدأ يصعد كل يوم. وبدأت الدراسة تعود. ليس بالشراهة القديمة — تلك طريقة الغاضب المتعجّل التي تحرق الموتور. عادت بطريقة أهدأ: فتح الكتاب، قرأ، فهم، انتقل. الأمور تمشي لأنها تمشي لا لأنه يُجبرها.</p>
+<p>الصلاة دخلت حياته بهدوء لا كبطولة دينية بل مثل عادة تجد مكانها في النهار وتُريح وجودها. الفجر أصبح وقته.</p>
+<p>في مكالمة هاتفية قالت أمه: "كيف الحال؟"</p>
+<p>"بخير."</p>
+<p>"تأكل؟"</p>
+<p>"آه."</p>
+<p>صمت قصير. ثم: "أرسلت لك زعتر مع جارنا حسن، هو يمر عليك الأسبوع الجاي."</p>
+<p>"شكراً يا أمي."</p>
+<div class="sb">✦</div>
+<p>في ليلة شتائية في آخر السنة الثانية جلس يوسف على نفس الطاولة في الغرفة وفتح كتاب تحليل الإنشاءات. المصباح يُلقي دائرة صفراء دافئة على الصفحات. طلال نائم. البرد خارج النافذة.</p>
+<p>قرأ الجملة الأولى. فهمها. انتقل للثانية. المعادلة كانت تعمل في ذهنه بوضوح. الأرقام تتحرك في مكانها الصحيح.</p>
+<p>في زاوية واحدة من عيونه شيء تغيّر. ليس في الصفحة. في الطريقة التي يقرأ بها. كأنه الآن يقرأ من مكان أعمق قليلاً.</p></div></div>
+<div class="ft">
+  <button class="fb" onclick="show('c1')">→ الأول</button>
+  <span class="fc">2 من 7</span>
+  <button class="fb pr" onclick="show('c3')">الثالث ←</button>
+</div>
+</div>
+
+<div id="c3" class="cp">
+<div class="hero">
+  <div class="cn">الفصل الثالث</div>
+  <div class="ct">هندسة الأرض والروح</div>
+  <div class="nav-r">
+    <button class="nb" onclick="show('c2')">→ الثاني</button>
+    <button class="nb" onclick="show('c4')">الرابع ←</button>
+  </div>
+</div>
+<div class="rd"><div class="nv"><p>في يوم حفل التخرج كانت الشمس حارّة بلا رحمة والكراسي البلاستيكية البيضاء تُبهر بانعكاسها. يوسف في الرداء الأسود والقبعة المسطحة يجلس بين مئتين من أصحاب نفس الرداء، والمذياع يُرددون فيه أسماء لا تتوقف.</p>
+<p>أمه في الصف الثالث من الزائرين. يعرف مكانها دون أن يلتفت إليها — كان يعرف دائماً مكانها في الأماكن المكتظة. شعرها تحت الوشاح الأبيض الذي تلبسه في المناسبات، ويداها في حجرها.</p>
+<p>أبوه كان خلفها. جاء في القميص الرسمي البني الذي يلبسه مرتين في السنة. لا يُصفّق كثيراً. لكن حين نادى المذيع اسم يوسف وقام ومشى إلى المنصة، ألقى يوسف نظرة سريعة ناحية الصفوف ورأى أباه ينظر إليه بعيون تشبه من يُحاول أن يحفظ شيئاً في الذاكرة.</p>
+<p>أخذ الشهادة. ابتسم للمصور. رجع لمكانه.</p>
+<div class="sb">✦</div>
+<p>في مقابلة العمل الأولى انتظر في ردهة ضيقة مفروشة بسجادة بيج قديمة الرائحة. أمامه رجلان آخران يُراجعان أوراقهما. ساعة على الحائط تتقدم ببطء. اسمه يُنادى.</p>
+<p>المكتب كان صغيراً محشواً بالأوراق والمخططات الملفوفة. رجل في الخمسين بنظارة تجلس على طرف أنفه وشوارب مرتبة. نظر في السيرة الذاتية، نظر إلى يوسف، نظر مجدداً في الورقة.</p>
+<p>"دفعة ممتازة. تخرّجت من أين بالضبط من الدفعة؟"</p>
+<p>"الثالث في التخصص."</p>
+<p>"شفتك واقف في المبنى الجديد يوم الزيارة الميدانية. ماذا قلت لنفسك وأنت تقف فيه؟"</p>
+<p>توقف يوسف. ثم قال: "قلت: هذا الحديد سيكون هنا بعد مئة سنة."</p>
+<p>صمت المهندس ثانية. ثم وضع القلم.</p>
+<p>"ابدأ الأحد."</p>
+<div class="sb">✦</div>
+<p>في أول يوم في العمل كان الهواء في مكتب المقاولات يحمل رائحة البلوبرينت والتراب والقهوة التي تُعاد تسخينها مرات. مكتب في الطابق الثاني لبناية صغيرة، ثمانية مهندسين وعدد من الرسامين وسكرتيرة تعرف اسم كل مشروع عن ظهر قلب.</p>
+<p>الأسابيع الأولى: رسومات تفصيلية، جداول حسابية، تصحيح أخطاء الرسامين. العمل الصغير الذي لا يراه أحد لكنه أساس كل شيء. يوسف يتقنه دون ضجر لأنه يرى النمط فيه.</p>
+<p>والأمور تمشي.</p>
+<p>في الشهر الثاني طُلب منه إعادة حساب الأساسات لمشروع متأخر لأن المهندس الأقدم مرض. أنجزه في يومين حين الوقت المحدد كان ثلاثة. في الشهر الخامس لاحظ خللاً في توزيع الأحمال في مشروع لمكتب كبير. صوّبه. المهندس الكبير اتصل وشكره شخصياً.</p>
+<p>كان يُسمّيها "توفيق" ولا يُضيف عليها أكثر.</p>
+<div class="sb">✦</div>
+<p>السنوات الخمس بعد ذلك: شقة أفضل، أثاث قليل لكن مختار. سيارة بيضاء صغيرة محتشمة. يُرسل لأمه كل شهر. المئذنة ليست بعيدة عن بيته الجديد — هذا لم يكن مقصوداً في البداية.</p>
+<p>الشراكة جاءت من أبو عمار، رجل أعمال ستيني يملك أراضي ومشاريع ولا يملك المهندس الذي يثق به بالكامل. قضى ستة أشهر يُراقب يوسف من بعيد، وفي لقاء عابر قال مباشرة: "أريد أن نكون شركاء."</p>
+<p>"في ماذا بالضبط؟"</p>
+<p>"في كل شيء."</p>
+<p>فكّر يوسف ثلاثة أيام. ثم قال نعم.</p>
+<div class="sb">✦</div>
+<p>في سنته العاشرة بعد التخرج كان يوسف رجلاً ميسوراً بمقاييس معقولة. لا ثروة مُبهرة لكن أكثر مما يحتاجه. مشاريع كثيرة. اسم يُشار إليه في دوائر المهنة بالاحترام الهادئ أكثر من الإعجاب الصاخب.</p>
+<p>وفي تلك المرحلة بالذات، حين يجلس في مكتبه مساءً بعد أن يخرج الجميع، كان يشعر أن شيئاً ما يُنتظر منه. ليس صوتاً يسمعه، بل إحساس يشبه الجوع الهادئ: هناك شيء لم يُكتمل.</p>
+<div class="sb">✦</div>
+<p>في طريقه من موقع مشروع ذات مساء مرّ في شارع لم يسلكه من قبل. وفي منتصفه مبنى بطابقين من الحجر الداكن، واجهته مقوسة بثلاثة أقواس كبيرة، ونوافذ مرتفعة بعقود جصية متشققة. مهجور. بابه مُسمّر بلوح خشبي.</p>
+<p>وقف يوسف أمامه.</p>
+<p>لم يُفكّر طويلاً. كان هناك إدراك بسيط ومفاجئ مثل تذكّر شيء كنت تعرفه وأنسيته: هذا المكان.</p>
+<div class="sb">✦</div>
+<p>في أربعة أشهر: شراء المبنى، التصاريح، التصميم. يوسف رسم التصميم الداخلي بنفسه. الطابق الأرضي: غرفة طعام كبيرة ومطبخ وصالة واسعة. الطابق الثاني: غرف نوم بنوافذ عالية. الأفنية الجانبية فُرشت بالحجر وزُرعت بأشجار صغيرة. الأقواس الثلاثة أُرمّمت ولم تُغيَّر. الضوء الذي يدخل من نوافذ الطابق الثاني في الصباح يقع بالضبط في منتصف صالة اللعب. كل قرار في التصميم خضع لسؤال واحد: هل يشعر فيه الطفل بالاتساع؟</p>
+<p>يوم الافتتاح لم يكن احتفالاً. يوسف وأم رجاء واثنان من المتطوعين. في الأول من الشهر: دفعة الأطفال الأولى. اثنا عشر طفلاً من أعمار مختلفة. جاؤوا مع مسؤولة اجتماعية تحمل ملفاتهم.</p>
+<p>دخلوا الباب الواحد تلو الآخر يُلقون نظرات سريعة في الأرجاء. بعضهم سأل عن المطبخ أولاً. وبعضهم ركض مباشرة إلى صالة اللعب.</p>
+<p>وطفل واحد، نحيل، شعره غير مرتب، في التاسعة أو العاشرة، دخل وتوقف في المدخل ولم يرفع رأسه. فقط وقف وأنزل حقيبته الصغيرة على الأرض ببطء، كأنه يضع شيئاً ثقيلاً.</p>
+<p>يوسف توقفت عيناه للحظة على هذا الطفل. مجرد لحظة. ثم عاد إلى الترحيب.</p>
+<div class="sb">✦</div>
+<p>الأشهر التالية: الحياة في الدار تجد إيقاعها. الأطفال يتشاجرون على الحمامات في الصباح. أم رجاء تحل الخلافات بعدل صارم ومحبة لا تُظهرها كثيراً. يوسف يأتي كل يوم، ليس مقيماً لكن ليس غائباً. يجلس مع الأطفال وقت العشاء أحياناً. يُفتّش في دفاترهم المدرسية. يُصلّح ما انكسر في المبنى بنفسه إذا كان صغيراً.</p>
+<p>الموظفون لاحظوا أشياء. الطعام لا ينفد أبداً بطريقة غريبة. المشاكل الإدارية المعقدة تجد طريقها لحلول بسيطة. تبرعات تأتي من حيث لا أحد يتوقع. لم يتكلم أحد في الأمر بصراحة، لكن أم رجاء قالت مرة لزميلتها بهدوء: "هذا البيت فيه نعمة."</p>
+<p>ماهر، الطفل النحيل، صار يظهر في زاوية يوسف المحيطية أكثر من الآخرين. كان يجلس وحيداً أحياناً في الفناء بعد العشاء، أو يُلاحق النملة بعيونه على الجدار، أو يُحدّق في كتاب مفتوح دون أن يقرأه. لم يكن يضطرب ولم يكن يُشاكس. كان فقط هادئاً بطريقة تُنبّه يوسف دون أن يعرف لماذا.</p>
+<p>في مساء أحد الأيام كان يوسف في مكتبه يُراجع فواتير الشهر حين فُتح الباب ووقف ماهر على العتبة.</p>
+<p>"أيه ماهر؟"</p>
+<p>"القلم."</p>
+<p>"ماذا به؟"</p>
+<p>"انكسر."</p>
+<p>وقف يوسف وأخرج من درج المكتب قلماً جديداً وناوله للصبي. ماهر أخذ القلم ونظر إليه لحظة قصيرة — وهو ينظر إلى يد يوسف لا إلى القلم — ثم قال: "شكراً" ومشى.</p>
+<p>رفع يوسف رأسه في اتجاه الباب المغلق. ثم رجع إلى الفواتير.</p></div></div>
+<div class="ft">
+  <button class="fb" onclick="show('c2')">→ الثاني</button>
+  <span class="fc">3 من 7</span>
+  <button class="fb pr" onclick="show('c4')">الرابع ←</button>
+</div>
+</div>
+
+<div id="c4" class="cp">
+<div class="hero">
+  <div class="cn">الفصل الرابع</div>
+  <div class="ct">كيمياء المعدة</div>
+  <div class="nav-r">
+    <button class="nb" onclick="show('c3')">→ الثالث</button>
+    <button class="nb" onclick="show('c5')">الخامس ←</button>
+  </div>
+</div>
+<div class="rd"><div class="nv"><p>كان الصباح عادياً حين وجدت أم رجاء الشيء الأول.</p>
+<p>كانت تُنظّف الحمام الصغير في الطابق الثاني، وهي تُدندن بصوت خافت، حين لاحظ بصرها شيئاً في الركن. توقفت عن التنظيف. انحنت. مسّته بطرف أصبعها.</p>
+<p>كان أصفر. ثقيلاً بشكل غير متوقع لحجمه. شكله لا يُشبه أي شيء عرّفته في حياتها. أخذته في راحة يدها ونظرت إليه تحت الضوء. ثقيل ولامع ولا يُشبه البلاستيك ولا الحجر ولا أي معدن معتاد.</p>
+<p>لم تصرخ. وضعته في جيب مريولها وأكملت التنظيف.</p>
+<p>في المساء جلست في غرفتها الصغيرة ووضعت الشيء على الطاولة وأطفأت كل الأضواء ما عدا المصباح المركزي. نظرت إليه. قلبته. خدّشته بمفتاح. ظل كما هو. ذهبت إلى درج الخزانة وأخرجت خاتمها الذهبي القديم — مهر زواجها من عشرين سنة — ووضعته جانب الشيء.</p>
+<p>اللون مطابق.</p>
+<p>شربت كوب الماء الذي على طاولتها بالكامل. ثم قامت وذهبت إلى غرفة ماهر.</p>
+<p>كان ماهر يذاكر، أو يُحاول. دفتره مفتوح وعيونه في الهواء.</p>
+<p>"ماهر."</p>
+<p>"أيه يا أم رجاء."</p>
+<p>"تعال معي لحظة."</p>
+<p>جلسا في الصالة الفارغة. وضعت الشيء على الطاولة بينهما. ماهر نظر إليه. لم يتفاجأ. لكن شيئاً في وجهه — خدّه على وجه التحديد — شدّه قليلاً.</p>
+<p>"تعرفه؟" سألت.</p>
+<p>صمت.</p>
+<p>"ماهر."</p>
+<p>"آه."</p>
+<p>"من أين أتى؟"</p>
+<p>صمت أطول. ثم نظر إليها نظرة فيها شيء يشبه الحسابات السريعة. ثم قال بهدوء: "مني."</p>
+<p>"كيف؟"</p>
+<p>لم يُجب بالكلام. مدّ يده نحو الفاكهة في الطبق على الطاولة — تفاحة خضراء — وأمسكها ونظر إلى أم رجاء. "تنتظرين؟"</p>
+<p>أكل ماهر التفاحة.</p>
+<p>لم يتكلما. الساعة تدق. المبرّد في الركن يُئن. من الطابق الثاني صوت أطفال يضحكون على شيء.</p>
+<p>بعد وقت انزلق من يد ماهر على الطاولة شيء ثقيل. أصفر. لامع. مطابق للأول.</p>
+<p>أم رجاء أخذت نفساً بطيئاً. ثم قامت.</p>
+<div class="sb">✦</div>
+<p>في اليوم التالي طلبت أم رجاء لقاء يوسف في مكتبه بعد انتهاء وقت الدراسة.</p>
+<p>أغلق يوسف الملف الذي كان يُراجعه ونظر إليها. كانت تجلس بيديها في حجرها وتنظر إليه بنظرة الشخص الذي قرر ما سيقوله.</p>
+<p>"عندي شيء أُريك إياه."</p>
+<p>وضعت القطعتين على المكتب.</p>
+<p>يوسف نظر إليهما. مدّ يده ومسّ الأولى. ثقلت في يده.</p>
+<p>"ماهر؟" قال.</p>
+<p>"آه."</p>
+<p>"كيف بالضبط؟"</p>
+<p>قصّت عليه ما رأت بالتسلسل دون تعليق. يوسف يُنصت دون أن يُقاطع. حين أنهت قال: "أريد أن أرى."</p>
+<p>في نفس المساء في الصالة جلس يوسف وأمام يده تفاحة وبجانبه أم رجاء وأمام الجميع ماهر.</p>
+<p>ماهر نظر إلى التفاحة. ثم نظر إلى يوسف. "تعرف؟"</p>
+<p>"أم رجاء أخبرتني."</p>
+<p>"وماذا تريد؟"</p>
+<p>"أريد أن أرى."</p>
+<p>أكل ماهر التفاحة ببطء. يوسف ينظر. أم رجاء تنظر. ثم على الطاولة بهدوء مثل إنزال كوب وضع ماهر قطعة ذهب.</p>
+<p>يوسف أمسك القطعة. نظر إليها. وضعها. ثم نظر إلى ماهر.</p>
+<p>"حسناً."</p>
+<p>ماهر بدا كأنه ينتظر أكثر من كلمة.</p>
+<p>"هل يعرف أحد غيرنا؟"</p>
+<p>"لأ."</p>
+<p>"يبقى هكذا."</p>
+<p>قام يوسف. "الليلة نم بخير."</p>
+<div class="sb">✦</div>
+<p>في تلك الليلة وقف يوسف عند نافذة الطابق الثاني التي تُطل على الفناء. الأشجار الصغيرة هادئة. السماء مُعتمة والنجوم قليلة.</p>
+<p>لم يُفكّر في الأمر بطريقة المهندس الذي يرى ظاهرة لأول مرة. لم يُحاول تفسير الآلية. كان هناك شيء حدث وكان موجوداً والتساؤل عن منشأه الآن ليس أولويته.</p>
+<p>ما استوقفه كان شيئاً آخر: الطفل الذي يُحوّل طعامه ذهباً. الطفل الذي يجلس وحيداً في الفناء. الطفل الذي دخل الباب ولم يرفع رأسه. يعرف هذا الطفل. ليس بمعنى المعرفة الشخصية بل بمعنى أعمق: يعرف من أين يأتي ذلك الحمل.</p>
+<p>رجع لغرفته. نام.</p>
+<div class="sb">✦</div>
+<p>في الأيام التالية بدأت الأمور تتشكّل ببطء. يوسف أدخل ماهر في برامج الدعم الأكاديمي. بدأ يصحبه لمواقع البناء، يُعطيه قلماً وورقة ويقول: "ارسم ما تراه." ماهر كان يرسم برسومات غير دقيقة لكن فيها انتباه للتناسب.</p>
+<p>ذات يوم وقفا أمام مبنى قيد الإنشاء. قال يوسف: "تعرف لماذا الأعمدة في المنتصف لا عند الحواف؟"</p>
+<p>ماهر نظر. فكّر. "لأن الثقل في المنتصف؟"</p>
+<p>"قريب. لأن توزيع الحمل يُعطي ثباتاً أفضل. الحمل الواحد على عمود واحد يُسقطه. الحمل الموزّع يُثبّت الجميع."</p>
+<p>ماهر لم يُجب. لكنه نظر للمبنى نظرة مختلفة.</p>
+<p>في غرفته كان يجرّب قدرته بتفاصيل لا يُخبر بها أحداً. يُسجّل نتائجه في دفتر صغير يخبّئه. وفي درج صغير في الخزانة بدأت تتراكم القطع الذهبية: صغيرة وكبيرة، تلمع في الظلام حين يفتح الدرج ليلاً.</p>
+<p>السنوات مرّت. ماهر في الثانية عشرة صار أطول وقدرته تزداد مع الوقت. يطرح أسئلة عن الذهب: "كم يساوي الغرام؟" "ماذا يمكن شراؤه بكيلو؟" يوسف يُجيب بهدوء دون تعليق أخلاقي، كما يُجيب على سؤال في الجغرافيا.</p>
+<p>وذات ليلة أمسك ماهر قطعة واحدة في كلتا يديه. ثقلت. لمعت في ضوء المصباح الخافت. شعر بدفء خفيف في كفيه.</p>
+<p>في عيونه بريق لا يُشبه فرحة الطفل البسيطة. كان بريقاً من نوع الشخص الذي رأى الخريطة وبدأ يُفكّر في الطريق.</p></div></div>
+<div class="ft">
+  <button class="fb" onclick="show('c3')">→ الثالث</button>
+  <span class="fc">4 من 7</span>
+  <button class="fb pr" onclick="show('c5')">الخامس ←</button>
+</div>
+</div>
+
+<div id="c5" class="cp">
+<div class="hero">
+  <div class="cn">الفصل الخامس</div>
+  <div class="ct">نمو الجشع</div>
+  <div class="nav-r">
+    <button class="nb" onclick="show('c4')">→ الرابع</button>
+    <button class="nb" onclick="show('c6')">السادس ←</button>
+  </div>
+</div>
+<div class="rd"><div class="nv"><p>في الثامنة عشرة صار ماهر يتكلم عن المستقبل بصوت مرتفع.</p>
+<p>ليس مع يوسف. مع سامر وعلي — أقرب أصحابه في الدار — في الغرفة بعد إطفاء الأضواء الرسمية.</p>
+<p>"سأشتري شقة في الحي الجديد أولاً." يقول ماهر وصوته فيه شيء يُشبه الحسم. "ليست كبيرة. لكن في الطابق العالي. بمنظر."</p>
+<p>"بالذهب؟" سامر.</p>
+<p>"بالذهب. لكن لا أحد يعرف من أين جاء. هذا مهم."</p>
+<p>"وبعدين؟"</p>
+<p>"بعدين سيارة. وبعدين..."</p>
+<p>كان "وبعدين" مفتوحاً دائماً. ماهر يُفكّر بصوت عالٍ في أشياء كثيرة لكن خطّها الجوهري كان واحداً: الاستقلال. الخروج من هذه الدار التي، رغم أنها أعطته كل ما يحتاجه، لا تزال ليست له.</p>
+<p>مع يوسف الأمر مختلف.</p>
+<p>يوسف لاحظ في السنتين الأخيرتين أن ماهر يُكلّمه بطريقة تغيّرت. فيها مسافة جديدة، ليست عدائية لكنها تقيس. كأن ماهر يمشي بجانبه ويُلاحظ الفارق في الطول ويُفكّر.</p>
+<p>ذات صباح وجد يوسف ماهر في المطبخ يُعدّ إفطاره بمهارة. كان يُقطّع الخيار بسرعة وينثر عليه الملح دون أن ينظر.</p>
+<p>"صباح الخير."</p>
+<p>"صباح النور." دون أن يرفع رأسه.</p>
+<p>جلس يوسف وصنع قهوته. ثم قال بهدوء: "ماهر، كيف تريد أن تُكمل بعد الثانوية؟"</p>
+<p>توقف ماهر عن القطع. "لا أريد الجامعة."</p>
+<p>"إذاً؟"</p>
+<p>"إذاً سأعمل. في أشياء."</p>
+<p>يوسف لم يُعلّق. شرب القهوة.</p>
+<p>"أنت تعرف أنني لست بحاجة للجامعة." قال ماهر وفيه شيء يُريد أن يكون جرأة.</p>
+<p>"أعرف."</p>
+<p>"إذاً لماذا تسأل؟"</p>
+<p>"لأن الجامعة ليست فقط للتعلم. لتعرف كيف تبني شيئاً لا يتوقف حين تتوقف أنت."</p>
+<p>أكمل ماهر قطع الخيار. الموضوع انتهى في اتجاه واحد لذلك الصباح.</p>
+<div class="sb">✦</div>
+<p>في الشهر التالي جاء ماهر لمكتب يوسف وأغلق الباب خلفه.</p>
+<p>"أريد أن نتحدث."</p>
+<p>"تفضّل."</p>
+<p>جلس ماهر. "لدي طلب. الذهب الذي أُنتجه — لماذا يكون كله هنا؟"</p>
+<p>"لأنك كنت هنا."</p>
+<p>"الآن أنا أكبر. أريد حصتي. أنا من يُنتجه. ألا يحق لي الاستفادة منه؟"</p>
+<p>يوسف وضع قلمه ونظر إلى ماهر نظرة طويلة هادئة. "ماذا تريد أن تفعل به؟"</p>
+<p>"أريد أن أعيش في مكاني. أملك قراراتي."</p>
+<p>لم يرد يوسف بسرعة. ثم قال: "الذهب الذي تُنتجه، هل فكّرت يوماً من أين يأتي حقاً؟"</p>
+<p>"من جسدي."</p>
+<p>"من جسدك فقط؟"</p>
+<p>"من أين غيره؟"</p>
+<p>نظر يوسف من النافذة لحظة ثم رجع إليه. "لا أعرف الإجابة بشكل كامل. لكنني أعرف أن أشياء كثيرة في هذه الحياة تعمل في سياق. خارج السياق قد تتوقف."</p>
+<p>"هذا كلام مبهم."</p>
+<p>"نعم. أحياناً الحقيقة مبهمة."</p>
+<div class="sb">✦</div>
+<p>في ليلة شتائية والمطر الخفيف على النوافذ، جلس يوسف وماهر وحيدين في مكتب الدار.</p>
+<p>بدأ ماهر: "أريد أن أغادر."</p>
+<p>"متى؟"</p>
+<p>"الشهر القادم."</p>
+<p>"حسناً."</p>
+<p>توقف ماهر. لم يكن يتوقع "حسناً" بهذا الهدوء. "حسناً؟ هذا كل ما تقوله؟"</p>
+<p>"ماذا تريدني أن أقول؟"</p>
+<p>"شيئاً. أي شيء. أنت لا تهتم؟"</p>
+<p>"أهتم. لهذا لن أُوقفك."</p>
+<p>صمت ماهر.</p>
+<p>"أنت رجل. لديك قدرة لا يملكها أحد وأنا لا أعرف مصدرها بالكامل. وعندك حق في اختياراتك." وقف يوسف وذهب إلى النافذة. المطر على الزجاج. "ما أعرفه هو أنني بنيت ما بنيته في هذه الحياة لا بالذهب. بنيته بأشياء لا تلمع."</p>
+<p>ماهر ينظر إلى ظهره. "وهذا تلميح لي."</p>
+<p>"لا. هذا إخبار بالفرق."</p>
+<p>صمت طويل. المطر يزيد ثم يخفّ. في مكان بعيد في المبنى صوت طفل يتقلّب في نومه ثم يهدأ.</p>
+<p>"ما الذي ستخسره حقاً حين تغادر؟" قال يوسف.</p>
+<p>لم يقل ماهر شيئاً.</p>
+<p>"أنا لا أُريدك أن تبقى خوفاً. أريدك أن تعرف الإجابة."</p>
+<p>ماهر نظر إلى يديه. "ستقول إنني سأخسر البركة."</p>
+<p>"لا. أنا لا أعرف ما ستخسره. هذا هو بالضبط ما أقوله."</p>
+<div class="sb">✦</div>
+<p>الأيام الخمسة بعدها كانت هادئة بطريقة مشحونة. ماهر يجمع أشياءه دون ضجة، يُعبّئ الحقيبة الجديدة.</p>
+<p>يوم المغادرة وقف في الصالة وحوله بعض الأطفال. أصغرهم رنا تمسك بمعصمه. ماهر ابتسم وانحنى وقال لها: "سأزورك."</p>
+<p>"وعد؟"</p>
+<p>"وعد."</p>
+<p>وأم رجاء أعطته كيساً فيه طعام للطريق دون أن تقول شيئاً ودون أن تنظر إليه بالطريقة التي تقول "هذا خطأ."</p>
+<p>ويوسف كان عند الباب. لا كثير كلام. ماهر توقف أمامه.</p>
+<p>"خذ عناية بنفسك."</p>
+<p>يوسف مدّ يده. ماهر صافحها. ثم خرج.</p>
+<p>المشي في الشارع وحيداً لأول مرة كان غريباً. الحقيبة على كتفه ثقيلة ولذيذة الثقل. الهواء البارد يلمس وجهه. الشارع أمامه مفتوح.</p>
+<p>في الدار جلس يوسف في مكتبه والبناية أهدأ مما اعتاد. فتح ملفاً ثم أغلقه. نظر من النافذة.</p></div></div>
+<div class="ft">
+  <button class="fb" onclick="show('c4')">→ الرابع</button>
+  <span class="fc">5 من 7</span>
+  <button class="fb pr" onclick="show('c6')">السادس ←</button>
+</div>
+</div>
+
+<div id="c6" class="cp">
+<div class="hero">
+  <div class="cn">الفصل السادس</div>
+  <div class="ct">السحر المشروط</div>
+  <div class="nav-r">
+    <button class="nb" onclick="show('c5')">→ الخامس</button>
+    <button class="nb" onclick="show('c7')">السابع ←</button>
+  </div>
+</div>
+<div class="rd"><div class="nv"><p>الشقة في الطابق الثالث كانت كما أرادها: نافذة كبيرة تطلّ على شارع يتحرك. جدران بيضاء. مطبخ صغير لكن كافٍ.</p>
+<p>في الأسابيع الأولى كانت الحياة المستقلة تحمل طعم الفاكهة الجديدة: كل قرار صغير فيه لذة. يأكل ما يريد حين يريد. ينام متى شاء.</p>
+<p>والذهب لا يزال يأتي.</p>
+<p>أتى بسلاسة في الأسابيع الأولى. باع قطعاً صغيرة في محل الصاغة في الشارع الموازي. الصائغ رجل عجوز لا يسأل أسئلة كثيرة. تعرّف على محمود تاجر صغير ونضال صاحبه. اثنان يُحبّان الحديث والشاي ولا يُحبّان الأسئلة الشخصية.</p>
+<p>"من أين تأتي بهذه القطع؟" سأله محمود مرة.</p>
+<p>"إرث." قال ماهر.</p>
+<p>"صغير لإرث."</p>
+<p>"ما شاء الله." ضحكا وانتهى الأمر.</p>
+<p>يوسف يأتي إليه أحياناً في ما قبل النوم. يُطرده ببساطة. يُفكّر في خططه بدلاً منه.</p>
+<div class="sb">✦</div>
+<p>في صباح يوم ثلاثاء — وكان الصباح عادياً بكل معنى الكلمة — جلس ماهر على طاولة المطبخ وأمامه أومليت أعده بنفسه. أكل. انتظر.</p>
+<p>لا شيء.</p>
+<p>أكمل الأكل ببطء. ربما تحتاج وقتاً أطول. انتظر خمس دقائق. عشراً. ربع ساعة.</p>
+<p>لا شيء.</p>
+<p>قام وأعدّ قطعة خبز وجبن. أكلها. انتظر. لا شيء. ذهب إلى الثلاجة وأخرج تفاحة، الأمر يعمل مع التفاح دائماً، أكلها. انتظر.</p>
+<p>لا شيء.</p>
+<p>بقي في المطبخ وقتاً طويلاً. الساعة تمشي. الشارع تحته يتحرك. أكل مرة أخرى. أكثر هذه المرة. انتظر. لا شيء يتحرك إلا عقارب الساعة.</p>
+<p>في نهاية النهار جلس على الأرض بجانب الطاولة وظهره إلى الكوبورد. أمامه على الأرض طبق فارغ.</p>
+<p>يداه على ركبتيه. عيناه في الطبق. لا شيء في تعابير وجهه يمكن قراءته بسهولة. فقط وجه شاب يجلس ويحسب شيئاً لا تظهر نتيجته.</p>
+<div class="sb">✦</div>
+<p>في الأسبوع التالي جرّب كل شيء.</p>
+<p>غيّر مواعيد الأكل. جرّب الصيام ثم الأكل الكثير. أكل في الصباح الباكر وفي منتصف الليل. جرّب أطعمة لم يجرّبها من قبل. غيّر غرفة النوم — نقل السرير إلى الجانب الآخر كأن في ذلك تأثيراً. أطال الانتظار.</p>
+<p>لا شيء.</p>
+<p>ذخيرته من الذهب كانت قد أنفق جزءاً منها. تبقّى ما كان كافياً لأشهر، لكن مع الإنفاق المستمر يتآكل بشكل لا يُريح.</p>
+<p>محمود والصائغ انتبها لانقطاع القطع. محمود سأل بعد أسبوعين: "ما في قطع هذه الأيام؟"</p>
+<p>"الإرث على وشك الخلوص."</p>
+<p>"هاه." نظرة فيها شيء.</p>
+<p>ماهر رأى تلك النظرة وأدارها في ذهنه. المعادلة تتغير حين تتغير الموارد.</p>
+<div class="sb">✦</div>
+<p>في مرحلة بعدها بدأت الوحدة.</p>
+<p>ليست الوحدة الجسدية — كان يُقابل ناساً. لكن كان يجلس مع محمود ونضال ويشعر بمسافة. المحادثات صارت مختلفة. قبلاً كان فيها شيء. الآن لا قطع والمحادثات تمشي بشكل أبطأ وبجهد أكثر.</p>
+<p>يكتشف الآن شيئاً لم يُفكّر فيه: العلاقات التي بناها لم تُبنَ عليه هو. بُنيت على ما يملك.</p>
+<p>في ليلة جلس ماهر وجاء يوسف في رأسه لأول مرة بلا قهر. ليس بشوق، بشيء يشبه السؤال. ماذا يقول يوسف لو أخبره؟ ثم طرد الفكرة.</p>
+<p>في الأسبوع التالي مشى إلى شارع الدار. وقف في الطرف الآخر. رأى الواجهة بأقواسها الثلاثة. مشى. لم يدخل.</p>
+<p>في الأسبوع الذي تلاه مشى مرة أخرى. وقف أقرب. سمع أصوات أطفال من الداخل. مشى.</p>
+<div class="sb">✦</div>
+<p>في صباح رمادي بعد ثلاثة أشهر من المغادرة جلس ماهر على الأرض مجدداً بجانب طاولة المطبخ. الطبق أمامه. الذهب في الدرج ينفد.</p>
+<p>لم يُجرّب هذه المرة. فقط جلس.</p>
+<p>في رأسه لا كلام كثير. فقط إدراك هادئ ومُؤلم: أنه يحتاج أن يمشي.</p>
+<p>قام. لبس جاكيته. أغلق الشقة. نزل.</p>
+<p>المسافة إلى قصر يوسف — انتقل يوسف في الفترة الأخيرة — كانت عشرين دقيقة مشياً. في تلك العشرين دقيقة لم يُفكّر في ماذا سيقول. فقط مشى. الهواء على وجهه. الشوارع تتغير من الضيق إلى الأوسع.</p>
+<p>وقف أمام باب كبير. سور به نباتات مجدولة. بيت واسع بلون الطين المُجفَّف.</p>
+<p>في تلك الثواني قبل أن يمد يده للجرس فكّر: أنا أطرق لأنني أريد ما أريده. وأدرك في اللحظة ذاتها أن هذا صادق تماماً ولا يكفي تماماً. مدّ يده وضغط.</p>
+<p>فتحت باب البيت امرأة شابة لم يرها من قبل. نظرت إليه.</p>
+<p>"ماهر؟" سألت وكأنها كانت تعرف أنه سيأتي.</p>
+<p>"آه."</p>
+<p>"تفضّل."</p>
+<p>دخل.</p></div></div>
+<div class="ft">
+  <button class="fb" onclick="show('c5')">→ الخامس</button>
+  <span class="fc">6 من 7</span>
+  <button class="fb pr" onclick="show('c7')">السابع ←</button>
+</div>
+</div>
+
+<div id="c7" class="cp">
+<div class="hero">
+  <div class="cn">الفصل السابع</div>
+  <div class="ct">التطهير والميلاد الجديد</div>
+  <div class="nav-r">
+    <button class="nb" onclick="show('c6')">→ السادس</button>
+    <button class="nb" onclick="show('cv')">الغلاف ←</button>
+  </div>
+</div>
+<div class="rd"><div class="nv"><p>القصر — وهو لم يكن قصراً في الحقيقة لكنه كان أوسع مما اعتاد ماهر — كان مختلفاً في طريقة هوائه.</p>
+<p>في الدار القديمة كان هواء الأطفال والطعام والأصوات. في شقته كان هواؤه هو. هنا كان هواء يصعب وصفه: نظيف بشكل فيه شيء يتجاوز النظافة المادية، وهادئ بشكل لا علاقة له بغياب الأصوات. الأضواء الطبيعية تدخل من نوافذ عالية وتقع على الأرض بشكل مدروس.</p>
+<p>أُعطي ماهر غرفة في الطابق الثاني. أم رجاء وضعت له مناشف نظيفة وقالت: "العشاء الساعة الثامنة." لا كثير كلام. لا لوم. وكأن مجيئه شيء طبيعي في مسار الأمور.</p>
+<p>يوسف استقبله بهدوء كأنه لم يغب ثلاثة أشهر بل انتهى من مهمة وعاد. جلسا في الصالة الكبيرة وأمامهما قهوة.</p>
+<p>"كيف كان؟"</p>
+<p>"جيداً." قال ماهر. ثم بعد لحظة: "ثم لم يكن جيداً."</p>
+<p>يوسف لم يُعلّق.</p>
+<p>"القدرة توقفت."</p>
+<p>"أعرف."</p>
+<p>لم يسأل ماهر كيف يعرف. بدا الأمر منطقياً بطريقة ما.</p>
+<p>"أريد أن أجرّب هنا. إذا عادت هنا..."</p>
+<p>"جرّب."</p>
+<p>لم يكن في صوت يوسف تحدٍّ ولا تشجيع. فقط إذن.</p>
+<p>في تلك الليلة أكل ماهر العشاء. انتظر طويلاً. لا شيء.</p>
+<p>في الليلة التالية. الأسبوع التالي. لا شيء.</p>
+<div class="sb">✦</div>
+<p>في الأيام الأولى كان التركيز كله على القدرة: متى ستعود؟ ما الذي يُعيدها؟ ماهر ينتظر بعد كل وجبة وعيناه على لا شيء.</p>
+<p>يوسف يراه يفعل ذلك ولا يُعلّق.</p>
+<p>في أسبوعه الثاني وجد ماهر نفسه يُساعد في الحديقة. ليس لقرار، فقط رأى رجل يوسف يُحاول نقل أصيص ثقيل وحمله معه. ثم في اليوم التالي رأى ما يحتاج للترتيب في المخزن فرتّبه. الأفعال الصغيرة تتراكم دون أن يُعلن عنها.</p>
+<p>ومرة وجد نفسه على الشرفة الصغيرة بجانب يوسف. لم يكن هناك موعد مسبق. جلسا. الحديقة تحتهم تُغرق في الظل التدريجي. الهواء يبرد ببطء.</p>
+<p>لم يتكلما لوقت. ثم قال يوسف: "مئذنة المسجد القريب." وأشار. في الأفق الداكن كانت المئذنة الرفيعة مضاءة بضوء أبيض خافت.</p>
+<p>"ذهبت إليها؟" سأل ماهر.</p>
+<p>"كثيراً."</p>
+<p>"تصعدها؟"</p>
+<p>"في وقت من الأوقات كل يوم."</p>
+<p>صمت ماهر. ثم: "لماذا؟"</p>
+<p>يوسف فكّر قليلاً. "لأنني من فوق كنت أسمع أقل وأُدرك أكثر."</p>
+<p>لم يقل ماهر شيئاً. لكنه ظل ينظر للمئذنة بعد أن صرف يوسف نظره.</p>
+<div class="sb">✦</div>
+<p>وهناك ريم.</p>
+<p>كانت موجودة في الجانب من أيامه دون أن تجعل نفسها محوراً. تأتي وتذهب بإيقاعها الخاص. صوتها هادئ لكن فيه رأي. حين تتكلم تنتهي الكلمة عندما ينتهي المعنى.</p>
+<p>حوارهما الأول الحقيقي كان عن كتاب. وجدته في الصالة يُطالع كتاب الهندسة المعمارية ووقفت تنظر في الغلاف من وراء كتفه.</p>
+<p>"تُحبّ الهندسة؟" سألت.</p>
+<p>"لا أعرف. أجده مفهوماً."</p>
+<p>"أكثر من ماذا؟"</p>
+<p>فكّر. "أكثر من كثير أشياء أخرى."</p>
+<p>جلست على الكرسي الجانبي. "الهندسة المعمارية تقول شيئاً عن من بناها. هذا يُسعدني فيها."</p>
+<p>"ماذا تقول؟"</p>
+<p>"تقول ما كان يُهمّ الناس. المعابد كانت عالية لأن السماء كانت تُهمّهم. البيوت صارت واسعة حين صارت الخصوصية تُهمّ."</p>
+<p>نظر ماهر إليها. "وبيتك هذا، ماذا يقول؟"</p>
+<p>ابتسمت قليلاً. "يقول إن أبي يُفكّر في الضوء."</p>
+<div class="sb">✦</div>
+<p>في النصف الثاني من شهره الأول بدأ ماهر يلاحظ شيئاً غريباً: حدّة الانتظار بعد الأكل تفقد حدّتها. في البداية كان الانتظار ممتلئاً، انتظار نشط، عيون تترقب. الآن صار أخفّ. أحياناً ينسى.</p>
+<p>يوماً جلس في الصالة بعد الغداء يقرأ كتاباً عثر عليه في مكتبة يوسف ولم يتذكر الانتظار إلا بعد ساعة.</p>
+<p>هذا النسيان أفزعه في البداية أكثر من فقدان القدرة نفسها. كأن فقدان القدرة كان خسارة خارجية، لكن نسيان الانتظار كان تغيّراً داخلياً.</p>
+<p>ذلك الجوع القديم للقطع الذهبية صار أضعف. لم يختفِ لكنه يشبه الآن غريزة تقلّصت. مثل ضجيج بعيد لا يزال موجوداً لكنه لا يعود يُشغل الأذنين.</p>
+<div class="sb">✦</div>
+<p>الحديقة في آخر النهار. ماهر يجلس على مقعد حجري. الضوء ينسحب ببطء من الأشجار.</p>
+<p>"تبقى وحيداً هنا كثيراً."</p>
+<p>ريم. لم يسمع خطواتها. جلست على المقعد المقابل ومعها كتاب لم تفتحه.</p>
+<p>"لا أعترض على ذلك." قال ماهر.</p>
+<p>"أنا أيضاً. أحياناً أجلس هنا وأفكّر في لا شيء بعينه."</p>
+<p>صمت يمكن الجلوس فيه بلا ضغط.</p>
+<p>"هل تعرف أنك تغيّرت منذ جئت؟" قالت.</p>
+<p>"كيف؟"</p>
+<p>"لا أستطيع وصفه بدقة. لكن في البداية كنت تجلس وأنت في مكان آخر. الآن أنت هنا."</p>
+<p>نظر إليها. "ومن أخبرك أن قبل مختلف عن بعد؟"</p>
+<p>"لا أحد أخبرني." نظرت إليه. "رأيت."</p>
+<p>في تلك اللحظة، ودون إعلان ودون حساب، مدّ ماهر يده نحو الكتاب الذي بيدها. لا ليأخذه. فقط لمسة خفيفة على غلافه، كأنه يتحقق من وجوده. وللمرة الأولى في حياته أراد شيئاً لا لما يُعطيه.</p>
+<div class="sb">✦</div>
+<p>جاء ماهر لمكتب يوسف في صباح يوم عادي. أغلق الباب. جلس. يوسف ينتظر.</p>
+<p>"أريد أن أطلب شيئاً."</p>
+<p>"قل."</p>
+<p>"ريم."</p>
+<p>يوسف لم يتحرك. فقط نظر إلى ماهر بعيون تُفكّر. صمت طويل يمكن قياسه بالتنفس.</p>
+<p>"لماذا ريم؟" قال أخيراً.</p>
+<p>"لأنها ريم." وقفة. "لا لسبب آخر."</p>
+<p>يوسف ينظر إليه فترة. ثم: "هذه إجابة مختلفة عنك."</p>
+<p>"أعرف."</p>
+<p>قام يوسف وذهب إلى النافذة. من الخارج صوت الحديقة الصغيرة: عصافير وهواء. "ريم تختار لنفسها. سأتكلم معها. القرار لها."</p>
+<div class="sb">✦</div>
+<p>كان الزفاف بسيطاً.</p>
+<p>في الصالة الكبيرة، يوسف وأم رجاء وعدد صغير من الأشخاص الذين تعني لهم الأمور. لا موسيقى صاخبة. طعام جيد. ريم بثوب أبيض فيه أقل تفاصيل ممكنة وفيه كل الكفاية. ماهر بجانبها يجلس بطريقة من يعرف أين هو.</p>
+<p>أم رجاء بكت مرة واحدة — دمعة واحدة صارمة — ثم استعادت وجهها المعتاد.</p>
+<p>يوسف وقف بعيداً في جانب الصالة ونظر إليهما بعيون تُشبه عيون من يرى اكتمال شيء بدأ قبل وقت طويل.</p>
+<div class="sb">✦</div>
+<p>في الليل بعد أن هدأت الصالة جلس ماهر وريم في الغرفة التي أُعدّت لهما. نافذة واحدة تُطل على الحديقة. ضوء خافت. هواء يدخل من شقّ في الإطار ويحمل رائحة الأرض الليلية.</p>
+<p>قالت ريم: "هل أنت هنا؟"</p>
+<p>"آه." وكان هذا صادقاً.</p>
+<p>"جيد."</p>
+<p>لم يكن في الكلمات كثير. لكن في المكان ما يكفي.</p>
+<div class="sb">✦</div>
+<p>في الصباح التالي الشمس دخلت من نافذة المطبخ وحوّلت الهواء إلى ذهب خفيف مرئي.</p>
+<p>ماهر على طاولة المطبخ. أمامه قهوة وخبز وجبن. يأكل ببطء من يجلس في مكانه وليس له عجلة.</p>
+<p>يوسف مرّ من باب المطبخ وتوقف لحظة. نظر. ماهر يأكل. يد ماهر لا تنتظر — فقط تأخذ الخبز وتأكله. عيونه على النافذة والضوء الصباحي.</p>
+<p>يوسف واصل مشيه.</p>
+<p>في خطوة واحدة كانت بين الباب والردهة شعر بشيء يشبه الاكتمال — ليس نهاية بل وصول. كأن جملة طويلة بدأت في حي صغير بسطح يعلو على الضجيج وجدت آخر كلمة لها.</p>
+<p>خرج إلى الحديقة. الصباح فيه برد خفيف. المئذنة في الأفق لا تزال هناك. الأشجار الصغيرة تهتزّ في نسيم يأتي من جهة لا يعرفها.</p>
+<p>جلس على المقعد الحجري.</p>
+<p>وكان هذا كافياً.</p></div></div>
+<div class="ft">
+  <button class="fb" onclick="show('c6')">→ السادس</button>
+  <span class="fc">7 من 7</span>
+  <button class="fb pr" onclick="show('cv')">الغلاف ←</button>
+</div>
+</div>
+
+
+
+<div class="ebook-footer">
+  <div class="ft-row">
+    <!-- Instagram -->
+    <a class="ig-btn" href="https://www.instagram.com/9.bsm" target="_blank" rel="noopener">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="white">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+      </svg>
+      @9.bsm
+    </a>
+
+    <!-- Counters -->
+    <div class="counters">
+      <div class="cbox">
+        <div class="cnum"><span class="live-dot"></span>&nbsp;<span id="cnt-live">—</span></div>
+        <div class="clbl">متصل الآن</div>
+      </div>
+      <div class="cbox">
+        <div class="cnum"><span id="cnt-total">—</span></div>
+        <div class="clbl">إجمالي الزوار</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cr-line">
+    © 2025 — جميع حقوق النشر والتأليف محفوظة<br>
+    باسم علي دكمان السعيدي &nbsp;·&nbsp; لا يُسمح بإعادة النشر أو التوزيع دون إذن صريح
+  </div>
+  <div class="made-love">
+    صُنع بـ <span class="heart">❤️</span> من &nbsp;<span style="font-size:1.05rem;">🇮🇶</span>&nbsp; العراق
+  </div>
+</div>
+
+</main>
+
+<script>
+const sizes = ['sm','md','lg','xl'];
+let si = 1;
+function chSz(d){si=Math.max(0,Math.min(3,si+d));document.body.dataset.sz=sizes[si]}
+function show(id){
+  document.querySelectorAll('.cp').forEach(e=>e.classList.remove('vis'));
+  const el=document.getElementById(id);
+  if(el){el.classList.add('vis');window.scrollTo(0,0)}
+  document.querySelectorAll('.si').forEach(e=>{
+    e.classList.toggle('act', e.getAttribute('onclick').includes("'"+id+"'"));
+  });
+  updateProg();
+}
+function updateProg(){
+  const ids=['cv','c1','c2','c3','c4','c5','c6','c7'];
+  const cur=document.querySelector('.cp.vis');
+  if(!cur)return;
+  const idx=ids.indexOf(cur.id);
+  document.getElementById('pb').style.width=(idx/7*100)+'%';
+}
+window.addEventListener('scroll',()=>{
+  const sc=window.scrollY,dh=document.documentElement.scrollHeight-window.innerHeight;
+  if(dh>0){
+    const base=parseInt(document.getElementById('pb').style.width)||0;
+    // subtle scroll progress within page
+  }
+});
+show('book-cover');
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ── Counters ── */
+  var live  = Math.floor(Math.random() * 200) + 150;   // 150-350
+  var total = Math.floor(Math.random() * 6000) + 10000; // 10000-16000
+
+  function fmtAr(n) { return n.toLocaleString("ar-IQ"); }
+
+  function animCount(elId, target, dur) {
+    var el = document.getElementById(elId);
+    if (!el) return;
+    var step = target / (dur / 40), cur = 0;
+    var t = setInterval(function () {
+      cur = Math.min(cur + step, target);
+      el.textContent = fmtAr(Math.floor(cur));
+      if (cur >= target) clearInterval(t);
+    }, 40);
+  }
+
+  function startCounters() {
+    setTimeout(function () {
+      animCount("cnt-live",  live,  900);
+      animCount("cnt-total", total, 1600);
+    }, 600);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", startCounters);
+  } else {
+    startCounters();
+  }
+
+  /* live counter fluctuates every 4 s */
+  setInterval(function () {
+    live += Math.floor(Math.random() * 11) - 4;
+    live = Math.max(80, Math.min(500, live));
+    var el = document.getElementById("cnt-live");
+    if (el) el.textContent = fmtAr(live);
+  }, 4000);
+
+  /* total slowly grows every 9 s */
+  setInterval(function () {
+    total += Math.floor(Math.random() * 3) + 1;
+    var el = document.getElementById("cnt-total");
+    if (el) el.textContent = fmtAr(total);
+  }, 9000);
+
+})();
+</script>
+
+
+<script>
+(function () {
+  "use strict";
+
+  var audio  = document.getElementById("podAudio");
+  var player = document.getElementById("podPlayer");
+  var playBtn= document.getElementById("podPlayBtn");
+  var fill   = document.getElementById("podFill");
+  var bar    = document.getElementById("podBar");
+  var curEl  = document.getElementById("podCur");
+  var durEl  = document.getElementById("podDur");
+  var volEl  = document.getElementById("podVol");
+  var speedBtn = document.getElementById("podSpeedBtn");
+  var rewBtn = document.getElementById("podRew");
+  var fwdBtn = document.getElementById("podFwd");
+  var eqBars = document.querySelectorAll(".eq-bar");
+
+  if (!audio || !playBtn) return;
+
+  var speeds = [0.75, 1, 1.25, 1.5, 2];
+  var speedIdx = 1;
+  var eqTimer = null;
+
+  function fmt(s) {
+    if (isNaN(s)) return "—:——";
+    var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+    return m + ":" + (sec < 10 ? "0" : "") + sec;
+  }
+
+  /* ── play / pause ── */
+  function togglePlay() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+
+  audio.addEventListener("play", function () {
+    playBtn.textContent = "⏸";
+    player.classList.add("playing");
+    startEq();
+  });
+
+  audio.addEventListener("pause", function () {
+    playBtn.textContent = "▶";
+    player.classList.remove("playing");
+    stopEq();
+  });
+
+  audio.addEventListener("ended", function () {
+    playBtn.textContent = "▶";
+    player.classList.remove("playing");
+    fill.style.width = "0%";
+    curEl.textContent = "0:00";
+    stopEq();
+  });
+
+  playBtn.addEventListener("click", togglePlay);
+
+  /* ── progress ── */
+  audio.addEventListener("loadedmetadata", function () {
+    durEl.textContent = fmt(audio.duration);
+  });
+
+  audio.addEventListener("timeupdate", function () {
+    if (!audio.duration) return;
+    var pct = (audio.currentTime / audio.duration) * 100;
+    fill.style.width = pct + "%";
+    curEl.textContent = fmt(audio.currentTime);
+  });
+
+  bar.addEventListener("click", function (e) {
+    var rect = bar.getBoundingClientRect();
+    var ratio = (e.clientX - rect.left) / rect.width;
+    audio.currentTime = ratio * audio.duration;
+  });
+
+  /* ── seek buttons ── */
+  rewBtn.addEventListener("click", function () { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+  fwdBtn.addEventListener("click", function () { audio.currentTime = Math.min(audio.duration, audio.currentTime + 15); });
+
+  /* ── volume ── */
+  volEl.addEventListener("input", function () { audio.volume = parseFloat(volEl.value); });
+
+  /* ── speed ── */
+  speedBtn.addEventListener("click", function () {
+    speedIdx = (speedIdx + 1) % speeds.length;
+    audio.playbackRate = speeds[speedIdx];
+    speedBtn.textContent = speeds[speedIdx] + "×";
+  });
+
+  /* ── EQ animation ── */
+  function animateEq() {
+    eqBars.forEach(function (bar) {
+      var h = Math.floor(Math.random() * 22) + 4;
+      bar.style.height = h + "px";
+    });
+  }
+
+  function startEq() {
+    if (eqTimer) return;
+    eqTimer = setInterval(animateEq, 120);
+  }
+
+  function stopEq() {
+    clearInterval(eqTimer);
+    eqTimer = null;
+    eqBars.forEach(function (b) { b.style.height = "3px"; });
+  }
+
+})();
+</script>
+
+</body>
+</html>
